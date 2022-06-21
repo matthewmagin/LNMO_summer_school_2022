@@ -1,0 +1,338 @@
+%! Author = Matthew
+%! Date = 21.06.2022
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\input{preamble.tex}
+
+% Document
+\begin{document}
+\begin{center}
+\section{Теория чисел}
+\end{center}
+\subsection{Делимость и ее свойства:}
+
+В этом параграфе все числа целые, если иного не оговорено.
+\begin{definition}
+    Число $a$ \emph{делится} на число $b \neq 0$ ($a \divisible b$), если существует такое число $c$, что $a = b \cdot c$.\\
+	В этом случае говорят, что $b$~--- \emph{делитель} числа $a$.
+\end{definition}
+
+\textbf{Базовые факты, связанные с делимостью:}
+\begin{enumerate}
+	\item $a \divisible m$ и $b \divisiblem$ $\Longrightarrow$ $(a \pm b) \divisible m$, $ab \divisible m$.
+	\item $a \divisible m$  и $b$ $\divisible m$ $\Longrightarrow$ $\forall k, l \in \mathbb{Z} $ $(ka \pm lb) \divisible m$
+	\item $a \divisible m$ и $b \not\divisible m$  $\Leftrightarrow$ $(a \pm b) \not\divisible m \Longrightarrow (a \pm b)$ $\not\divisible$ $m$
+	\item $a \divisible m$ и $m \divisible k$ $\Longrightarrow$ $a$ $\divisible$ $k$
+\end{enumerate}
+\begin{proof} Всё это доказывается как-то так:
+	\[a \divisible m \Leftrightarrow a = q \cdot m, q \in \mathbb{Z}, \ b \divisible m \Leftrightarrow b = p \cdot m, p \in \mathbb{Z} \Rightarrow a \pm b = q \cdot m \pm p \cdot m = m \cdot (p + q) \Leftrightarrow (a \pm b) \divisible m\]
+
+
+\end{proof}
+
+\begin{example}
+Найдите все такие натуральные числа $a$, что $\frac{2a + 1}{a - 2}$ - целое число.
+\end{example}
+\textit{Решение:}
+\noindent$\frac{2a + 1}{a - 2} \in \mathbb{Z} \Leftrightarrow (2a + 1) \divisible (a - 2)$, а значит и разность этих чисел делится на $(a - 2)$.\\
+То есть, $((2a + 1) - (a - 2)) \divisible (a - 2) \Leftrightarrow (a + 3) \divisible (a - 2)$.\\
+ Кроме того, разность этого числа и $(a - 2)$ также должна делиться на  $(a - 2)$, то есть $((a + 3) - (a - 2)) \divisible (a - 2) \Leftrightarrow 5 \divisible (a - 2)$.\\
+То есть, $(a - 2)$~--- делитель числа 5, а значит он может быть равен $1, -1, 5, -5$. Переберем все случаи, так как их не так много:
+
+\begin{enumerate}
+	\item $a - 2 = -1 \Leftrightarrow a = 1$. $\frac{2 a + 1}{a - 2} = \frac{2 + 1}{1 - 2} = -3 \in \mathbb{Z}$, а значит $a = 1$ подходит.
+
+	\item $a - 2 = 1 \Leftrightarrow a = 3$. $\frac{2 a + 1}{a - 2} = \frac{6 + 1}{3 - 2} = 7 \in \mathbb{Z}$, а значит $a = 3$ подходит.
+
+	\item $a - 2 = -5 \Leftrightarrow a = -3$, но $a \in \mathbb{N}$, а значит этот случай не подходит.
+
+	\item $a - 2 = 5 \Leftrightarrow a = 7$. $\frac{2 a + 1}{a - 2} = \frac{14 + 1}{7 - 2} = 3 \in \mathbb{Z}$, а значит $a = 7$ подходит.
+\end{enumerate}
+
+\textit{Ответ:} $\left\{ 1, 3, 7\right\}$.\\
+
+
+\textbf{Свойства четных и нечетных чисел:}
+
+\begin{enumerate}
+	\item Сумма двух последовательных натуральных чисел~--- нечетное число.
+
+	\item Сумма четного и нечетного чисел~--- нечетное число.
+
+	\item Сумма любого количества четных чисел~--- четное число.
+
+	\item Сумма четного количества нечетных чисел~--- четное число, в то время как сумма нечетного количества нечетных чисел - нечетное число.
+
+	\item Произведение двух последовательных натуральных чисел~--- четное число.
+
+\end{enumerate}
+
+\begin{theorem}
+
+	 Произведение двух последовательных чисел делиться на 2\\
+
+\end{theorem}
+
+
+\begin{example}
+
+	В ряд выписаны числа от 1 до 10. Можно ли расставить между ними знаки <<$+$>> и <<$-$>> так, чтоб значение полученного выражения было равно нулю?
+
+\end{example}
+
+\textit{Решение:}
+
+Среди чисел от 1 до 10 имеется ровно 5 нечетных чисел, а значит, их сумма, вне зависимости от того, с каким знаком их брать, будет нечетным числом, а значит и сумма всех чисел будет нечетным числом. То есть, нулем она быть не может, так как ноль - четное число.\\
+
+\textit{Ответ:} нет.
+
+\begin{definition}
+    Число $p \in \mathbb{N}$ называется \emph{простым}, если $p > 1$ и $p$ не имеет положительных делитетлей, отличных от $1$ и $p$.
+\end{definition}
+
+\begin{statement}
+	Если $p_1$ и $p_2$~--- простые числа и $p_1 \divisible p_2$, то $p_1 = p_2$.
+\end{statement}
+
+\begin{theorem}[Евклид]
+
+    Множество простых чисел счетно.
+
+\end{theorem}
+
+\begin{proof}
+	\textcolor{magenta}{\texttt{Будет добавлено.}}
+
+\end{proof}
+
+\begin{definition}
+
+	Натуральное число $n \mathbb{Z}$ называется составным, если оно имеет хоть один положительный делитель, отличный от $1$ и $n$.
+
+\end{definition}
+
+\begin{remark}
+
+	Число 1 не является ни простым, ни составным.
+
+\end{remark}
+
+\subsubsection{Деление с остатком}
+
+\begin{definition}
+    Пусть a и b $\neq 0$~--- два целых числа. Разделить число  a на число b с остатком~--- значит найти такие целые числа $q$ и $r$, что выполнены следующие условия:
+
+	\begin{enumerate}
+
+	    \item $a = bq + r$
+
+		\item $0 \le r < |b|$
+
+	\end{enumerate}
+
+	При этом число $q$ называется \emph{неполным частным}, а число $r$~--- \emph{остатком от деления числа $a$ на $b$}.
+
+\end{definition}
+
+\begin{theorem}
+
+    Для любых $a, b \in \mathbb{Z}$ существуют единственные $q, r \in \mathbb{Z}, \ 0 \le r < |b|$, что $a = bq + r$.
+
+\end{theorem}
+
+\begin{proof}
+
+    \textcolor{magenta}{\texttt{Будет написано.}}
+
+\end{proof}
+
+\begin{corollary}
+
+	Пусть $m \in \mathbb{N}, \ m > 1$. Каждое целое число при делении на $m$ даёт некоторый остаток, причем остатков ровно $m$.
+	Это могут быть числа $0, 1, \ldots, m - 1$.
+
+\end{corollary}
+
+Рассмотрим некоторые элементарные методы вычисления остатка.
+
+\begin{theorem}
+
+	Сумма (произведение) чисел $a$ и $b$ дает тот же остаток при делении на число  $m$, что и сумма (произведение) остатков чисел a и b при делении на число $m$.
+
+\end{theorem}
+
+\begin{example}
+	Найдите остаток числа $2^{2012}$ при делении на 3.
+\end{example}
+\textit{Решение:}\\
+Заметим, что $2^{2012} = 4^{1006}$. Число 4  дает остаток 1 при делении на 3, а значит по теореме выше (о произведении остатков), $4^k$ даст остаток $1^k = 1$.
+
+\textit{Ответ:} 1.
+
+\subsubsection{Сравнения по модулю}
+\begin{definition}
+	Если целые числва $a$ и $b$ при делении на натуральное число $m$ дают равные остатки, то говорят, что \emph{a сравнимо с b по модулю m} и пишут $a \equiv b \pmod m$.
+Иначе говоря, такая запись означает, что $(a - b)$ делится на $m$.
+\end{definition}
+
+При помощи таких обозначений громоздкое предложение <<а дает остаток b при делении на c>> теперь можно записать, как $a \equiv b \pmod c$.\\
+
+На мой взгляд, работать с остатками в целом гораздо проще при помощи сравнений по модулю. У сравнений есть множество полезных свойств, рассмотрим самые основные:\\
+
+\textbf{Основные свойства сравнений по модулю:}
+\begin{enumerate}
+	\item Арифметические действия:\\
+	$\begin{cases}
+	a \equiv b \pmod m \\
+	c \equiv d \pmod m
+	\end{cases} \Longrightarrow \left . \begin{array}{l}(a \pm c) \equiv (b \pm d) \pmod m \\ a \cdot c \equiv b \cdot d \pmod m \end{array} \right .$
+	\item Возведение в степень:\\
+	$a \equiv b \pmod m \Longrightarrow a^k \equiv b^k \pmod m$
+	\item
+	Перенос в другую часть равенства:\\
+	$(a + b) \equiv c \pmod m \Longrightarrow a \equiv (c - b) \pmod m$
+	\item Транзитивность:\\
+	$\begin{cases} a \equiv b \pmod m \\ b \equiv c \pmod m\end{cases} \Longrightarrow a \equiv c \pmod m$
+\end{enumerate}
+\begin{proof}
+
+	\textcolor{magenta}{\texttt{Будет добавлено.}}
+
+\end{proof}
+
+\begin{statement}
+
+    Сравнимость мо модулю~--- отношение эквивалентности.
+
+\end{statement}
+\begin{proof}
+
+    \textcolor{magenta}{\texttt{Будет добавлено.}}
+
+\end{proof}
+
+\subsection{Десятичная запись числа. Признаки делимости.}
+
+\begin{definition}
+    Любое натуральное число представимо в виде:
+\[ n = \overline{a_{k}a_{k - 1}\ldots a_0} = a_k \cdot 10^k + a_{k - 1} \cdot 10^{k -1} + \ldots + a_0 \]
+Такая запись называется десятичной записью числа n.
+\end{definition}
+
+\begin{example}
+	Двузначное число умножили на произведение его цифр, в результате чего получилось трехзначное число, состоящее из одинаковых цифр, совпадающих с последней цифрой исходного числа. Найдите исходное число.
+\end{example}
+\textit{Решение:}
+Обозначим исходное двузначное число за $\overline{ab}$.\\
+Теперь мы можем переписать условие задачи в виде уравнения:
+\[ \overline{ab} \cdot (ab) = \overline{bbb} \Leftrightarrow
+(10a + b) \cdot ab = 100b + 10b + b \Leftrightarrow
+10a^2b + ab^2 = 111b \]
+Ясно, что при $b = 0$ условие не выполняется. Если $b \neq 0$, то на него можно поделить обе части:
+\[10a^2 + ab = 111 \Leftrightarrow ab = 111 - 10a^2\]
+Так как $ab > 0$ , $10a^2 < 111$, а значит $a$ либо 1, либо 2, либо 3. Рассмотрим случаи по порядку.
+\begin{itemize}
+	\item Если $a = 1$, $b = 101$, а это невозможно, так как $b$~--- цифра.
+	\item Если $a = 2$, $b = \frac{71}{2}$, а это невозможно, так как $b$~--- цифра.
+	\item Если $a = 3$, $b = 7$. Тогда, искомое число~--- 37.
+\end{itemize}
+\textit{Ответ:} 37.
+
+\begin{example}
+	Найдите все натуральные числа, являющиеся степенью двойки, при зачеркивании первой цифры у которых получается число, также являющееся степенью двойки.
+\end{example}
+\textit{Решение:}
+Пусть мы зачеркнули первую цифру числа $2^n$, состоящего из $k + 1$ цифр. Тогда  $10^k < 2^n < 10^{k + 1}$, $10^{k - 1} < 2^m < 10^k$, а значит $\cfrac{1}{10^k} < \cfrac{1}{2^m} < \cfrac{1}{10^{k - 1}}.$\\
+Если перемножить первое и третье неравенства, то получится, что $1 < 2^{n - m} < 10^{2} \Longleftrightarrow$\\ $0 < n - m < 8$.\\
+Так как цифру заканчивали слева, $2^n$ и $2^m$ заканчиваются на одну и ту же цифру, а значит:\\
+\[2^n - 2^m \equiv 0 \pmod{10} \Leftrightarrow 2^m(2^{n - m} - 1) \equiv 0 \pmod{10} \Leftrightarrow
+2^{n - m} - 1 \equiv 0 \pmod 5 \Leftrightarrow 2^{n - m} \equiv 1 \pmod 5 \]
+
+Рассмотрим таблицу остатков от деления $2^n$ на 5:
+
+\begin{center}
+\begin{tabular}{ | l | l | l | l | l | l | l | l | l |}
+\hline
+$2^n$ & 2 & 4 & 8 & 16 & 32 & 64 & 128 & \ldots \\ \hline
+Остаток от деления $2^n$ на 5   & 2 & 4 & 3 & 1 & 2 & 4 & 3 & \ldots\\\hline
+\end{tabular}
+\end{center}
+
+Учитывая при этом $1 < n - m < 8 $, $n - m = 4 \Leftrightarrow m = n - 4$.\\
+Обозначим зачеркнутую цийру числа $2^n$ за $a$. Тогда
+\[2^n - a \cdot 10^k = 2^{n - 4} \Leftrightarrow
+2^{n - 4} \cdot (2^{4} - 1) = a \cdot 10^k \Leftrightarrow
+2^{n - 4} \cdot 3 \cdot 5 = a \cdot 2^k \cdot 5^k \]
+Так как в левой части всего одна пятерка, $k = 1$, а значит, искомое число двузначное.\\
+Перебирая все двузначные степени двойки, понимаем, что подходят числа 32 и 64.\\
+\textit{Ответ:} 32, 64.
+
+\textbf{Признаки делимости натуральных чисел:}
+
+\begin{theorem} \textbf{(Признак делимости на 5)}\\
+	Число $a$ делится на $5$ тогда и только тогда, когда последние цифры десятичной записи числа $a$~--- это 0 или 1.
+\end{theorem}
+\begin{proof}
+    \textcolor{magenta}{\texttt{Будет добавлено.}}
+\end{proof}
+
+\begin{theorem}\textbf{(Признак делимости на 3 и на 9)}\\
+	Число $a \in \mathbb{Z}$ даёт такой же остаток от деления на 3 (и на 9), что и сумма цифр числа $a$.
+\end{theorem}
+
+\begin{proof}
+
+	Пусть $\overline{a_na_{n - 1}\ldots a_2 a_1}$ -- десятичная запись данного числа $a$, то есть
+	\[a = \overline{a_na_{n - 1}\ldots a_2 a_1} = a_n \cdot 10^{n - 1} + a_{n - 1}\cdot 10^{n - 2} + \ldots a_1 \cdot 10^0 \]
+	Так как $10 \equiv 1 \pmod 3$, $10^{i} \equiv 1^{i} \pmod 3 \equiv 1 \pmod 3 \Rightarrow a_i \cdot 10^{i - 1} \equiv a_i \pmod 3$.  \\
+	Применим это к каждому слагаемому и сложим все, получим:\\
+	\[a_n \cdot 10^{n - 1} + a_{n - 1}\cdot 10^{n - 2} + \ldots a_1 \cdot 10^0 \equiv (a_n + a_{n - 1} + \ldots  a_2 + a_1) \pmod 3\]
+	Так как $10 \equiv 1 \pmod{9}$, аналогичное доказательство проходит и для $9$.
+
+\end{proof}
+
+\begin{example}
+	
+	Два числа отличаются перестановкой цифр. Может ли их разность быть равной 20072008?
+	
+\end{example}
+\textit{Решение:}\\
+Как мы помним, сумма цифр числа дает тот же остаток от деления на 9, что и само число. Значит, разность описанных в условии задачи чисел должна делиться на 9, так как у этих чисел одинаковая сумма цифр:\\
+Пусть первое число - a, $a \equiv c \pmod 9$, второе число $b$, $b \equiv c \pmod 9$.\\
+$\begin{cases}a \equiv c \pmod 9 \\ b \equiv c \pmod 9 \end{cases} \Longrightarrow a - b \equiv c -c \pmod 9 \Longleftrightarrow a - b \equiv 0 \pmod 9 \Longleftrightarrow (a - b)$ $\divisible$ $9$. \\
+Но, $20072008$ $\not\divisible$ $9$, а значит это невозможно.\\
+
+\begin{theorem} \textbf{(Признаки делимости на 4 и на 8)}
+	Число делится на 4 тогда и только тогда, когда две его последние цифры составляют число, которое делится на 4. Число делится на 8 тогда и только тогда, когда три его последние цифры составляют число, которое делится на 8.
+\end{theorem}
+\begin{proof}
+    \textcolor{magenta}{\texttt{Будет дописано.}}
+\end{proof}
+\begin{theorem} \textbf{(Признак делимости на 11)}
+    Число делится на 11 тогда и только тогда, когда разность суммы цифр, стоящих на нечетных местах и суммы цифр, стоящих на четных местах, делится на 11.
+\end{theorem}
+\begin{proof}
+    \textcolor{magenta}{\texttt{Будет дописано.}}
+\end{proof}
+
+\begin{example}
+	Рассмотрим число 305792608. $(8 + 6 + 9 + 5 + 3) - (0 + 2 + 7 + 0) = 22$ $\divisible$ $11$, а значит $305792608$ $\divisible$ $11$.
+\end{example}
+
+\begin{example}
+
+	На доске написано  такое число: $72x3y$, где $x$ и $y$ - некоторые цифры. Замените звездочки цифрами так]6 чтобы полученное число делилось на 45.
+
+\end{example}
+\textit{Решение:}
+Так как число должно делиться на 45, оно должно делиться на 5 и на 9 соответсвенно.
+Так как оно делится на 5, его последняя цифра либо 0, либо 5, а значит либо $y = 0$, либо $y = 5$. \\
+Так как число делится на 9, сумма его цифр должна делиться на 9. Рассмотрим сумму цифр числа:
+\[ (7 + 2 + x + 3 + y) \divisible 9 \Leftrightarrow (x + y + 12) \divisible 9\]
+$y = 5\colon \ (x + 17)$ $\divisible$ $9$, а значит $x = 1$.\\
+$y = 0\colom \ (x + 12)$ $\divisible$ $9$, а значит $x = 6$.\\
+
+\end{document}

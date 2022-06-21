@@ -1,0 +1,132 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[left=2cm,right=2cm,
+    top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{titling}
+\usepackage{textcomp}
+\usepackage{mathtext}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools}
+\usepackage{icomma}
+\usepackage{import}
+\usepackage{amssymb, amsmath}
+\usepackage{indentfirst}
+\usepackage{moresize}
+\usepackage{multicol}
+\usepackage{dsfont}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{caption}
+\usepackage{epigraph}
+\usepackage{xcolor}
+
+\newtheorem{statement}{Statement}
+\newtheorem{corollary}{Corollary}
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{example}{Example}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+\newtheorem{prop}{Property}
+
+
+
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\setlist{noitemsep} % No spacing between list items
+
+%%% Операторы всякие:
+\DeclareMathOperator{\arsec}{arsec}
+\DeclareMathOperator{\arcsch}{arcsch}
+\DeclareMathOperator{\arcosh}{arcosh}
+\DeclareMathOperator{\arsinh}{arsinh}
+\DeclareMathOperator{\artanh}{artanh}
+\DeclareMathOperator{\arsech}{arsech}
+\DeclareMathOperator{\grad}{grad}
+\DeclareMathOperator{\Log}{Log}
+\DeclareMathOperator{\Arg}{Arg}
+\renewcommand{\Im}{\mathop{\mathrm{Im}}\nolimits}
+\renewcommand{\Re}{\mathop{\mathrm{Re}}\nolimits}
+\DeclareMathOperator{\arcoth}{arcoth}
+\usepackage{setspace}
+%%% Колонтитулы
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\rightmark}
+\fancyhead[RE]{\leftmark}
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION TITLES
+%----------------------------------------------------------------------------------------
+
+%\sectionfont{\vspace{6pt}\centering\normalfont\scshape} % \section{} styling
+%\subsectionfont{\normalfont\bfseries} % \subsection{} styling
+%\subsubsectionfont{\normalfont\itshape} % \subsubsection{} styling
+%\paragraphfont{\normalfont\scshape} % \paragraph{} styling
+
+\newcommand{\RNumb}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+
+\renewcommand\thesection{\arabic{section}.}
+\renewcommand\thesubsection{\thesection\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+\renewcommand{\bf}{\textbf}
+%----------------------------------------------------------------------------------------
+%	HEADERS AND FOOTERS
+%----------------------------------------------------------------------------------------
+\DeclareMathOperator{\ord}{ord}
+\DeclareMathOperator{\ld}{ld}
+\DeclareMathOperator{\exi}{exi}
+\DeclareMathOperator{\num}{num}
+\DeclareMathOperator{\den}{den}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\len}{len}
+\DeclareMathOperator{\vp}{v.p.}
+\DeclareMathOperator{\osc}{osc}
+\newcommand{\divisible}{\mathop{\raisebox{-2pt}{\vdots}}}
+\DeclareRobustCommand{\divby}{%
+     \mathrel{\text{\vbox{\baselineskip.65ex\lineskiplimit0pt\hbox{.}\hbox{.}\hbox{.}}}}%
+}
+\newcommand{\eqdef}{\stackrel{\mathrm{def}}{=}}
+\DeclareRobustCommand{\notdivby}{%
+     \!\!\not\;\divby%
+}
+\DeclareMathOperator{\Int}{Int}
+\DeclareMathOperator{\Cl}{Cl}
+\DeclareMathOperator{\Fr}{Fr}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+
+
+
+\addto{\captionsrussian}{\renewcommand{\abstractname}{АННОТАЦИЯ}}
+
+\newcommand{\incfig}[1]{%
+    \def\svgscale{1.5}
+    \import{./figures/}{#1.pdf_tex}
+}
+\graphicspath{{pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg, .jpeg, .tex}
+
+\definecolor{myblue}{RGB}{72, 184, 178}
+\definecolor{myblue1}{RGB}{0, 109, 167}
+\usepackage{color}
+\usepackage[colorlinks,urlcolor = blue, filecolor=blue,citecolor=blue, linkcolor = blue]{hyperref}
