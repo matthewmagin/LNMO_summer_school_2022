@@ -10,23 +10,32 @@
 % Document
 \begin{document}
 \begin{center}
-\section{Теория чисел}
+\section*{\textsc{Базовая теория чисел}}
 \end{center}
-\subsection{Делимость и ее свойства:}
-
+\tableofcontents
+\newpage
+\section{Делимость целых чисел}
+\subsection{Делимость и ее базовые свойства.}
 В этом параграфе все числа целые, если иного не оговорено.
 \begin{definition}
     Число $a$ \emph{делится} на число $b \neq 0$ ($a \divisible b$), если существует такое число $c$, что $a = b \cdot c$.\\
-	В этом случае говорят, что $b$~--- \emph{делитель} числа $a$.
+	В этом случае говорят, что $b$~--- делит $a$ и пишут $b \mid a$.
 \end{definition}
 
 \textbf{Базовые факты, связанные с делимостью:}
 \begin{enumerate}
+	\item $a \divisible 1$.
 	\item $a \divisible m$ и $b \divisiblem$ $\Longrightarrow$ $(a \pm b) \divisible m$, $ab \divisible m$.
-	\item $a \divisible m$  и $b$ $\divisible m$ $\Longrightarrow$ $\forall k, l \in \mathbb{Z} $ $(ka \pm lb) \divisible m$
-	\item $a \divisible m$ и $b \not\divisible m$  $\Leftrightarrow$ $(a \pm b) \not\divisible m \Longrightarrow (a \pm b)$ $\not\divisible$ $m$
-	\item $a \divisible m$ и $m \divisible k$ $\Longrightarrow$ $a$ $\divisible$ $k$
+	\item $a \divisible m$  и $b$ $\divisible m$ $\Longrightarrow$ $\forall k, l \in \mathbb{Z} $ $(ka \pm lb) \divisible m$.
+	\item $a \divisible m$ и $b \not\divisible m$  $\Leftrightarrow$ $(a \pm b) \not\divisible m \Longrightarrow (a \pm b)$ $\not\divisible$ $m$.
+	\item $a \divisible m$ и $m \divisible k$ $\Longrightarrow$ $a$ $\divisible$ $k$.
+	\item $b \divisible a \Rightarrow |a| \le |b|$.
 \end{enumerate}
+\begin{remark}
+    Заметим, что с делением на 0 получается достаточно тонкий вопрос. Формально, 0 можно делить на 0 и результат будет произвольным, так как
+	$\forall a \in \mathbb{Z} \ a \cdot 0 = 0$.
+\end{remark
+}
 \begin{proof} Всё это доказывается как-то так:
 	\[a \divisible m \Leftrightarrow a = q \cdot m, q \in \mathbb{Z}, \ b \divisible m \Leftrightarrow b = p \cdot m, p \in \mathbb{Z} \Rightarrow a \pm b = q \cdot m \pm p \cdot m = m \cdot (p + q) \Leftrightarrow (a \pm b) \divisible m\]
 
@@ -335,4 +344,99 @@ $\begin{cases}a \equiv c \pmod 9 \\ b \equiv c \pmod 9 \end{cases} \Longrightarr
 $y = 5\colon \ (x + 17)$ $\divisible$ $9$, а значит $x = 1$.\\
 $y = 0\colom \ (x + 12)$ $\divisible$ $9$, а значит $x = 6$.\\
 
+\subsection{Кольцо классов вычетов.}
+Напомним, что
+\begin{definition}
+	Множество $R$ с операциями $<<+>>\colon R \times R \to R$ и $<<\cdot>>\colon R \times R \to R$  называют кольцом, если
+	$\forall a, b, c \in R$
+	\begin{enumerate}
+	    \item $a + b = b + a$ (коммутативность сложения)
+
+		\item $(a + b) + c = a + (b + c)$ (ассоциативность сложения)
+
+		\item $a \cdot (b \cdot c) = (a \cdot b) \cdot c$ (ассоциативность умножения)
+
+		\item $a \cdot (b + c) = a \cdot b + a \cdot c$ (левая дистрибутивность)
+
+		\item $(b + c) \cdot a = b \cdot a + c \cdot a$ (правая дистрибутивность)
+	\end{enumerate}
+	Иными словами, $R$~--- кольцо, если $R$~--- Абелева группа по сложению, полугруппа по умножению м выполнены аксиомы левой и правой
+	дистрибутивности. \\
+	Если в кольце $R$ есть нейтральный элемент по умножению, то кольцо $R$ называют кольцом с единицей. \\
+	Если умножение в кольце коммутативно, то кольцо называют коммутативным кольцом с единицей. \\
+\end{definition}
+\begin{definition}
+	Множество обратимых (по умножению) элементов кольца $R$ называют мультипликативной группой кольца $R$ и обозначают $R^{*}$.
+\end{definition}
+\begin{definition}
+	Полем называют коммутативное кольцо с единицей, где каждый ненулевой элемент обратим.
+\end{definition}
+
+Как мы уже выяснили в предыдущем параграфе, сравнимость по модулю $m$ ~--- отношение эквивалетности, обозначим его за $\sim_{m}$.
+
+\begin{definition}
+
+	Фактормножество $\mathbb{Z}/\sim_{m}$ называют кольцом классов вычетов по модулю $m$ и обозначают $\mathbb{Z}/m\mathbb{Z}$ (детали этого обозначения станут ясны несколько позже).
+
+\end{definition}
+\begin{remark}
+
+    Заметим, что кольцо классов вычетов можно эквивалентно определить, как множество чисел $\{ 0, 1, \ldots, m - 1\}$ (то есть, остатвков от деления на $m$) с операциями сложения и умножения <<по модулю>> (обозначим их за $\overline{+}$ и $\overline{\cdot}$), то есть
+	\[ \forall x, y \in \mathbb{Z}/m\mathbb{Z} \quad x \overline{+} y = (x + y)\pmod{m}, \ x \overline{\cdot} y = (x \cdot y)\pmod{m} \]
+
+\end{remark}
+\subsection{НОД и НОК.}
+\begin{definition}
+	Число $b$ называется общим кратным чисел $a_1, \ldots a_n$, если $\forall i \in \{ 1, \ldots, n\colon a_i \mid b$.
+\end{definition}
+\begin{definition}
+	Рассмотрим множество $\mathcal{M}$ всех общих кратных чисел $a_1, \ldots, a_n$. Элемент $\min\{\mathcal{M}\}$ называется наименьшим общим кратным чисел $a_1, \ldots, a_n$
+	и обозначается $\lcm(a_1, \ldots, a_n)$ или $[a_1, \ldots, a_n]$.
+\end{definition}
+\begin{theorem}\textbf{(Свойства НОК)}
+\begin{enumerate}
+    \item Любое общее кратное нескольких чисел делится на их наименьшее общее кратное.
+
+	\item $\forall a_{1}, \ldots a_n \in \mathbb{Z}\setminus{0}$ выполняется равенство
+		  \[ \lcm(a_1, \ldots, a_n) = \lcm((\lcm(a_1, \ldots, a_{n - 1}), a_n ) \]
+\end{enumerate}
+\end{theorem}
+\begin{proof} \textcolor{magenta}{\texttt{Допишу.}}
+\end{proof}
+
+Далее, говоря об общих делителях набора чисел, мы будем подразуемвать, что в наборе содержится хотя бы одно ненулевое число.
+
+
+\begin{definition}
+
+	Наибольшим общим делителем совокупности целых чисел называется наибольшее положительное число, делящее каждое из этих чисел.
+	Наибольший общий делитель набора $a_1, \ldots, a_n$ обычно обозначается, как $\gcd(a_1, \ldots, a_n)$ или $(a_1, \ldots, a_n)$.
+
+\end{definition}
+
+\begin{definition}
+	Целые числа $a, b$ называются взаимно простыми, если $\gcd(a, b) = 1$.
+\end{definition}
+
+\begin{theorem} \textbf{(Свойства НОД)}
+	\begin{enumerate}
+	    \item $\forall a, b \in \mathbb{Z}\ \lcm(a, b) \cdot \gcd(a, b) = a \cdot b$.
+
+		\item $a \mid b \cdot c, \ \gcd(a, b) = 1 \Rightarrow c \divisible a$.
+
+		\item Наибольший общий делитель нескольких чисел делится на любой их общий делитель.
+
+		\item Справедливо равенство
+			  \[ \gcd(a_1, \ldots, a_n) = \gcd(\gcd(a_1, \ldots, a_{n - 1}), a_n)\]
+	\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+
+    \textcolor{magenta}{\texttt{Допишу.}}
+
+\end{proof}
+
+\subsection{Алгоритм Евклида. Обобщенный алгоритм Евклида.}
+\subsection{Линейное представление НОД и решение уравнений в целых числах.}
 \end{document}

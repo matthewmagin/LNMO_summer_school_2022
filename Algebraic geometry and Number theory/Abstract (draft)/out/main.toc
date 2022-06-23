@@ -1,0 +1,6 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1.}Нормированные поля}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Нормированное поле. Неархимедовы нормы.}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Эквивалентные нормы.}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Пополнение метрических пространств}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Пополнение нормированного поля.}{5}{subsection.1.4}%

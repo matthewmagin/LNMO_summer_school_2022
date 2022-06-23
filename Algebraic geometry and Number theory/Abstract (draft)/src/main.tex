@@ -1,0 +1,230 @@
+%! Author = user
+%! Date = 22.06.2022
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\input{preamble}
+
+% Document
+\begin{document}
+    \begin{center}
+        \section*{Алгебраическая геометрия и теория чисел}
+    \end{center}
+    \tableofcontents
+    \newpage
+
+    \section{Нормированные поля}
+    \subsection{Нормированное поле. Неархимедовы нормы.}
+    Здесь и вдальнейшем будем полагать $F$ полем, хотя многие вещи работают и для кольца (а для области целостности существует
+    единственное продолжение на поле частных).
+
+    \begin{definition}\label{fieldnorm}
+     Нормой (нормированием, абсолютным значением) на поле $F$  называют отображение $\| \cdot \|\colon F \to \mathbb{R}_{> 0}$,
+        удовлетворяющее следующим свойствам:
+        \begin{enumerate}
+            \item $\| x \| = 0 \Leftrightarrow x = 0$.
+
+            \item $\forall x, y \in F \ \| x y \| = \| x \| \| y \| $.
+
+            \item $\exists C > 0\colon \forall x, y \in F\colon$
+            \[ \| x + y \| \le \max(x, y) \]
+        \end{enumerate}
+        Пара $(F, \| \cdot \|)$ называется нормированным полем.
+    \end{definition}
+    \begin{remark}
+        Тем, кто уже до этого видел определение нормы, это определение может показаться странным, так как обычно вместо третьего свойства
+        требуют неравенство треугольника:
+        \[ \forall x, y \in F \ \| x + y \| \le \| x \| + \| y \| \]
+        Ясно, что третье свойство следует из неравенства треугольника с $C = 2$. Ниже мы покажем и обратную импликацию.
+    \end{remark}
+
+    Ясно, что любая норма задаёт метрику $d(x, y) = \| x - y \|$, а любая метрика индуцирует топологию стандартным образом.
+
+    \begin{example}
+        Если $F \le \mathbb{C}$, то подходит $| \cdot |$ (модуль комплексного числа). Если $F \le \mathbb{R}$ или $F \le \mathbb{Q}$, то подходит $| \cdot |$.
+    \end{example}
+
+    \begin{example}
+        На любом поле можно ввести тривиальную норму (иногда соответствующую ей метрику называют метрикой лентяя):
+        \[ \| x \| = \begin{cases} 0, x = 0 \\ 1, x \neq 0 \end{cases}\]
+    \end{example}
+
+    \begin{theorem}
+        Если в определении \ref{fieldnorm} постоянная $C$ равна $2$, то норма удовлетворяет неравенству треугольника.
+    \end{theorem}
+    \begin{proof}
+
+        Сначала отметим, что если $n, m \in \mathbb{N}, \ n \le 2^m$, то выполняется оценка:
+        \[ \| x_1 + x_2 + \ldots  + x_n \| \le C^m \cdot \| \max\limits_{1 \le k \le n} \| x_k \| \]
+        Тогда мы можем провести оценки следующим образом:
+        \begin{multline*} \| x + y \|^n = \| (x + y)^n \| = \| \sum\limits_{k = 0}^{n} \binom{n}{k} x^k y^{n - k} \| \le 2(n + 1) \max\limits_{0 \le k \le n}\| \binom{n}{k} x^k y^{n - k} \| \le 2(n + 1) \max\limits_{0 \le k \le n}\left( 2 \binom{n}{k} \|x\|^k \| y \|^{n - k} \right) \le \\
+        \le 4(n + 1) (\| x \| + \| y \| )^n \end{multline*}
+        Преобразуем это неравенство
+        \[ \left( \frac{\| x + y \| }{\| x \| + \| y \|} \right)^n \le 4(n + 1) \leftrightarrow  \frac{\| x + y \|}{\| x \| + \| y \| } \le 4^{\frac{1}{n}} \cdot (n + 1)^{\frac{1}{n}} \]
+        В пределе при $n \to \infty$ получаем:
+        \[ \frac{\| x + y \| }{\| x \| + \| y \| } \le 1 \Leftrightarrow \| x + y \| \le \| x \| + \| y \| \]
+    \end{proof}
+
+    \begin{remark}
+        Пример $F = \mathbb{C}$ с нормой $\| \cdot \| = | \cdot |^{\alpha}, \ \alpha > 1$ показывает, что константу $C = 2$ нельзя улучшить.
+    \end{remark}
+    \begin{remark}
+        Тем самым, мы показали, что норму можно понимать, как функтор из категории $\mathcal{F}ield$ в категорию $\mathcal{M}etr$.
+    \end{remark}
+    \begin{corollary}
+        Норма непрерывна.
+    \end{corollary}
+    \begin{definition}
+        Нормы, с постойнной $C = 1$ в определении \ref{fieldnorm} называют неархимедовыми. Нормы, не являющиеся неархимедовыми,
+        называют архимедовыми.
+    \end{definition}
+    \begin{example}
+        Тривиальная норма на любом поле $F$ является неархимедовой.
+    \end{example}
+    \begin{definition}
+        Ясно, что любое $x \in \mathbb{Q}$ представимо в виде $x = p^n \cdot \frac{a}{b}$, где $a, b \in \mathbb{Z}, \ a \not\divisible p, \ a \not\divisible p$, а $n \in \mathbb{Z}$.
+        В таком случае число $n$ называют $p$-адическим показателем числа $x$ и обозначают $\upsilon_p(x)$.
+    \end{definition}
+    \begin{definition} \textbf{(Самое важное)}\\
+    Пусть $p$~--- простое число. Тогда норму
+        \[ \| x \|_{p} = \begin{cases} 0, x = 0 \\ p^{-\upsilon(p)}, x \neq 0  \end{cases}\]
+    на поле $\mathbb{Q}$ называют $p$-адической нормой.
+    \end{definition}
+
+    \begin{remark}
+        Ясно, что подоходит $r^{-\upsilon_p(x)}$, где $r > 1$, но $p$ брать удобно, так как для $x \in \mathbb{Q}^{*}$ справедлива формула произведения
+        \[ 1 = \prod\limits_{p} |x| \cdot  \| x \|_{p} \]
+    \end{remark}
+    \begin{lemma}
+        Если норма неархимедова, то для $x, y\colon \| x \| \neq \| y \|$ выполняется $\| x + y \| = \max{\| x \|, \| y \| }$.
+    \end{lemma}
+    \begin{corollary}
+        Рассмотрим $(F, \| \cdot \| )$, где норма $\| \cdot \|$ неархимедова. Тогда, если  $b \in B_r(a)$, то $B_r(a) = B_r(b)$.
+     \end{corollary}
+    \begin{corollary} (Забавное)\\
+        Если на поле $F$ введена неархимедова норма $F$, то $\forall x, y, z \in F$ по крайней мере два числа из
+        $\| x - y \|, \ \| x - z \|, \ \| y - z\| $ равны. \\
+        Иными словами, в метрическом пространстве $(F, d)$ ($d(x, y) = \| x - y \| $) все треугольники равнобедренные.
+    \end{corollary}
+
+    \subsection{Эквивалентные нормы.}
+    Пока не знаю, буду ли рассказывать.
+    
+    \subsection{Пополнение метрических пространств}
+
+    \begin{definition}
+    Пусть $(X, d_X)$ --- метрическое пространство, $\mathcal{F}(X)$ --- множество всех ограниченных функций из $X$ в $\mathbb{R}$. Тогда введём расстояние $d_{\infty}$ между функциями $f, g \in \mathcal{F}(X)$:
+    \begin{equation*}
+        d_{\infty}(f, g) \eqdef \sup\{|f(x) - g(x)|, x \in X\}
+    \end{equation*}
+    Заметим, что определение корректно, так как функции ограничены.
+    \end{definition}
+
+    \begin{lemma}
+
+    $(\mathcal{F}(X), d_{\infty})$ --- метрическое пространство.
+
+    \end{lemma}
+
+    \begin{proof}
+
+     Проверим три аксиомы метрики:
+    \begin{enumerate}
+        \item Пусть $f = g$. Тогда $|f(x) - g(x)| = 0$ для всякого $x \in X$, так что $d_{\infty}(f, g) = 0$. Если же наоборот $d_{\infty}(f, g) = 0$, то $0 \leq |f(x) - g(x)| \leq \sup = 0$, а значит $f(x) = g(x)$ для всех $x \in X$, что и означает $f \equiv g$.
+        \item Так как $|f(x) - g(x)| = |g(x) - f(x)|$, то и $d_{\infty}(f, g) = d_{\infty}(g, f)$.
+        \item Рассмотрим три ограниченные функции $f, g, h \in \mathcal{F}(X)$, и покажем, что
+        \begin{equation*}
+            d_{\infty}(f, g) + d_{\infty}(g, h) \geq d_{\infty}(f, h)
+        \end{equation*}
+        Мы знаем, что:
+        \begin{equation*}
+            \forall x \in X: |f(x) - g(x)| + |g(x) - h(x)| \geq |f(x) - h(x)|
+        \end{equation*}
+        в силу неравенства треугольника для стандартной метрики на $\mathbb{R}$. Для всякого $\varepsilon > 0$ мы можем взять $x_0$ такой, что $|f(x_0) - h(x_0)| \geq \sup\{|f(x) - h(x)|, x \in X\} - \varepsilon$. Получаем, что
+        \begin{equation*}
+            d_{\infty}(f, h) - \varepsilon = \sup\{|f(x) - h(x)|, x \in X\} - \varepsilon \leq |f(x_0) - h(x_0)| \leq
+        \end{equation*}
+        \begin{equation*}
+            \leq |f(x_0) - g(x_0)| + |g(x_0) - h(x_0)| \leq d_{\infty}(f, g) + d_{\infty}(g, h)
+        \end{equation*}
+        а раз это верно для любого $\varepsilon > 0$, то искомое неравенство доказано.
+    \end{enumerate}
+    \end{proof}
+
+    \begin{lemma}
+    $\mathcal{F}(X)$~--- полно.
+    \begin{proof}
+    Пусть $f_{n}$~--- фундаментальная последовательность функций. Тогда $\forall x_0 \in X: \{f_{n}(x_0)\}$ --- также фундаментальная последовательность, так как $|f_{n}(x_0) - f_{m}(x_0)| \leq \sup\{|f_{n}(x) - f_{m}(x)|, x \in X\}$. Следовательно,
+    \begin{equation*}
+        \forall x_0 \in X: \exists \lim_{n \to \infty} f_{n}(x_0)
+    \end{equation*}
+    и сходимость по всем точкам равномерна, так как не зависит от выбора точки $x_0$. Иными словами,
+    \begin{equation*}
+        \exists f(x): \forall \varepsilon > 0: \exists N: \forall n > N: d_{\infty}(f_n, f) < \varepsilon
+    \end{equation*}
+    где $f(x_0)$ определяется как предел $ \lim_{n \to \infty} f_{n}(x_0)$. Так что $f(x)$ --- функция, являющаяся пределом искомой последовательности функций.
+    \end{proof}
+    \end{lemma}
+
+    \begin{definition}
+    Пусть $(X, d_X)$~--- метрическое пространство, $\mathcal{F}(X)$~--- множество ограниченных функций из $X$ в $\mathbb{R}$. Построим изометрическое вложение $k: X \to \mathcal{F}(X)$ следующим образом:
+    \begin{enumerate}
+        \item Если $X$~--- ограничено, то определим $k(x) = d_x$, где
+        \begin{equation*}
+            \forall y \in X: d_x(y) \eqdef d_X(x, y)
+        \end{equation*}
+        Функция $d_x$ ограничена, так как $X$ ограничено. Заметим также, что
+        \begin{equation*}
+            d_{\infty}(d_x, d_y) = \sup_{z} |d_x(z) - d_y(z)| = \sup_z \big( d_X(x, z) - d_X(z, y) \big) \leq d_X(x, y)
+        \end{equation*}
+        однако равенство достигается при $z = y$, так что $d_{\infty}(d_x, d_y) = d_X(x, y)$, а значит вложение изометрическое.
+        \item Пусть $X$, возможно, не ограничено. Тогда определим $k(x) = d_x - d_{x_0}$ для некоторой фиксированной точки $x_0 \in X$, где
+        \begin{equation*}
+            \forall y \in X: \big(k(x)\big)(y) \eqdef d_x(y) - d_{x_0}(y) = d_X(x, y) - d_X(y, x_0)
+        \end{equation*}
+        что есть ограниченная функция, так как $\forall y \in X: d_X(x, y) - d_X(y, x_0) \leq d_X(x, x_0)$. \\
+        Заметим, что это аналогичным образом будет изометрическим вложением:
+        \begin{equation*}
+            d_{\infty}(d_x - d_{x_0}, d_y - d_{x_0}) = \sup_{z} |d_x(z) - d_{x_0}(z) - d_y(z) + d_{x_0}(z)| =
+        \end{equation*}
+        \begin{equation*}
+            = \sup_z \big( d_X(x, z) - d_X(z, y) \big) \leq d_X(x, y)
+        \end{equation*}
+        где равенство достигается при $z = y$.
+    \end{enumerate}
+    \end{definition}
+
+    \begin{Theorem}
+    Любое метрическое пространство $(X, d_X)$ имеет пополнение $(\overline{X}, d_{\overline{X}})$, то есть такое метрическое пространство $\overline{X}$, что выполнено:
+    \begin{enumerate}
+        \item $X \subseteq \overline{X}$
+        \item $X$ --- всюдю плотно в $\overline{X}$
+        \item $d_{\overline{X}}|_X = d_X$, то есть вложение из $X$ в $\overline{X}$ является изометрическим
+        \vspace{3pt}
+        \item $(\overline{X}, d_{\overline{X}})$ --- полно.
+    \end{enumerate}
+    \end{Theorem}
+    \begin{proof}
+    Возьмём изометрическое вложение Куратовского $k: X \to \mathcal{F}(X)$, и возьмём его замыкание в топологическом пространстве $\mathcal{F}(X)$ с топологией, индуцированной метрикой $d_{\infty}$ --- назовём это замыкание $\overline{X}$. Заметим, что
+    \begin{enumerate}
+        \item $X \subseteq \overline{X}$ естественным образом
+        \item $X$ всюду плотно в $\overline{X}$, так как любое множество всюду плотно в своём замыкании
+        \item Вложение $X$ в $\overline{X}$ изометрическое, так как оно изометрическое и во всё пространство $\mathcal{F}(x)$
+        \item $\overline{X}$ полно как замкнутое подмножество полного пространства.
+    \end{enumerate}
+    \end{proof}
+
+
+    \begin{remark}
+    Пополнение метрического пространства \textbf{единственно} с точностью до изометрии.
+    \end{remark}
+
+    \begin{remark}
+    Выражение $X \subseteq \overline{X}$ тоже подразумевается с точностью до изометрии.
+    \end{remark}
+    \subsection{Пополнение нормированного поля.}
+    Теперь мы умеем пополнять метрические пространства, но нам никто не гарантирует, что при пополнении поля по норме получится поле.
+
+\end{document}
