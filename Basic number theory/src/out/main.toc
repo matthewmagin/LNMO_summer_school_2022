@@ -7,4 +7,4 @@
 \contentsline {subsection}{\numberline {1.3}Кольцо классов вычетов.}{6}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}НОД и НОК.}{7}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Алгоритм Евклида. Обобщенный алгоритм Евклида.}{8}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Линейное представление НОД и решение уравнений в целых числах.}{9}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.6}Линейное представление НОД и решение уравнений в целых числах.}{10}{subsection.1.6}%
