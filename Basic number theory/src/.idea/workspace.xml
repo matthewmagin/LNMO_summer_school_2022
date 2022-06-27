@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2aff87cc-9ec3-4298-a2c6-f0da3d50a025" name="Changes" comment="" />
+    <list default="true" id="2aff87cc-9ec3-4298-a2c6-f0da3d50a025" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/exercises.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/out/main.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algebraic geometry and Number theory/Abstract (draft)/src/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.toc" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,14 +36,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/user/Documents/GitHub/LNMO_summer_school_2022/Basic number theory/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/user/Documents/GitHub/LNMO_summer_school_2022/Basic number theory/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify>
@@ -59,10 +76,22 @@
       <option name="presentableId" value="Default" />
       <updated>1655971816906</updated>
       <workItem from="1655971820955" duration="13236000" />
+      <workItem from="1656323712667" duration="4425000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
