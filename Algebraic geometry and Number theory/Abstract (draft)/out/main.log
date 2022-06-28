@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  27 JUN 2022 18:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  28 JUN 2022 17:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -961,12 +961,12 @@ LaTeX Font Info:    Trying to load font information for T2A+cmss on input line
 (/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-<Title.jpg, id=32, 857.2025pt x 1084.05pt>
+<Title.jpg, id=36, 857.2025pt x 1084.05pt>
 File: Title.jpg Graphic file (type jpg)
 <use Title.jpg>
 Package pdftex.def Info: Title.jpg  used on input line 16.
 (pdftex.def)             Requested size: 342.87492pt x 433.61232pt.
-<lnmo logo.jpg, id=33, 497.86pt x 88.33pt>
+<lnmo logo.jpg, id=37, 497.86pt x 88.33pt>
 File: lnmo logo.jpg Graphic file (type jpg)
 <use lnmo logo.jpg>
 Package pdftex.def Info: lnmo logo.jpg  used on input line 25.
@@ -1244,6 +1244,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8]
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 451.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 451.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -1252,19 +1260,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10]
 (/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebraic geometry and Nu
 mber theory/Abstract (draft)/out/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 78BBB7E655FCEB2FFE0DE92F5C78A362;1869.
+(rerunfilecheck)             Checksum: 554075D13EAEF25DD01904E00DD051C4;2101.
  ) 
 Here is how much of TeX's memory you used:
- 17887 strings out of 478268
- 285170 string characters out of 5846348
+ 17896 strings out of 478268
+ 285273 string characters out of 5846348
  597113 words of memory out of 5000000
- 35711 multiletter control sequences out of 15000+600000
+ 35712 multiletter control sequences out of 15000+600000
  492351 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,13n,78p,432b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1293,11 +1310,11 @@ exmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2022/tex
 mf-dist/fonts/type1/public/cm-super/sfss2986.pfb></usr/local/texlive/2022/texmf
 -dist/fonts/type1/public/cm-super/sfti1095.pfb>
 Output written on "/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebra
-ic geometry and Number theory/Abstract (draft)/out/main.pdf" (10 pages, 635431 
+ic geometry and Number theory/Abstract (draft)/out/main.pdf" (11 pages, 644219 
 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 75 words of extra memory for PDF output out of 10000 (max. 10000000)
 

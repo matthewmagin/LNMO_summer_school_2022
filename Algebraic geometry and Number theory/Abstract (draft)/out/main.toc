@@ -6,3 +6,4 @@
 \contentsline {subsection}{\numberline {1.4}Пополнение нормированного поля.}{5}{subsection.1.4}%
 \contentsline {section}{\numberline {2.}$p$-адические числа}{7}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Кольцо целых $p$-адических чисел.}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Поле $p$-адических чисел.}{10}{subsection.2.2}%

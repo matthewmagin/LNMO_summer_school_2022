@@ -401,5 +401,74 @@
         Таким образом, $\alpha \beta = 1 \Rightarrow \alpha \in \mathbb{Z}_p^{*}$.
     \end{proof}
 
+    \begin{theorem}
+        Любое отлчиное от нуля целое $p$-адическое число $\alpha$ можно представить в виде
+        \[ \alpha = p^m \cdot \varepsilon, \quad \varepsilon \in \mathbb{Z}_p^{*}, \ m \in \mathbb{N} \]
 
+    \end{theorem}
+    \begin{proof}
+        Если $\alpha \in \mathbb{Z}_p^{*}$, то равенство справедливо при $m = 0$.\\
+        Пусть теперь $\alpha \notin \mathbb{Z}_p^{*}$ и $\{ x_n \} \to \alpha$. Тогда, по предыдущей теореме
+        $x_0 \equiv 0 \pmod{p}$. Так как $\alpha \neq 0, \ \exists N \in \mathbb{N}\colon \forall n \ge N \ x_n \not\equiv 0 \pmod{p^{n + 1}}$.
+        Пусть $m$~--- наимеьший индекс, для которого
+        \[ x_m \not\equiv 0 \pmod{p^{m + 1}}\]
+        Заметим, что в таком случае $\forall s \ge 0$
+        \[ x_{m + s} \equiv x_{m - 1} \equiv 0 \pmod{p^{m}} \Rightarrow y_s = \frac{x_{m + s}}{p^m} \in \mathbb{Z} \]
+        \[ p^m y_s - p^m y_{s - 1}  = x_{m + s} - x_{m + s - 1} \equiv 0 \pmod{p^{m + s}} \Rightarrow y_s \equiv y_{s - 1} \pmod{p^s}\]
+        То есть, последовательность $\{ y_s \}$ тоже определяет некоторое $p$-адическое число $\varepsilon \in \mathbb{Z}_p$.
+        Заметим, что $y_0 = x_m/p^m \not\equiv 0 \pmod{p} \Rightarrow \varepsilon \in \mathbb{Z}_p^{*}$.\\
+        Из сравнения
+        \[ p^m y_s = x_{m + s} \equiv x_s \pmod{p^{s + 1}} \]
+        следует, что $\alpha = p^m \cdot \varepsilon$.
+        Покажем теперь единственность. Предположим, что $\alpha = p^k \xi, \ k \ge 0, \ \xi \in \mathbb{Z}_{p}^{*}$. Пусть $\{ z_s \} \to \xi$.
+        \[ p^m y_s \equiv p^k z_s \pmod{p^{s + 1}} \ \forall s \ge 0 \]
+        Так как $\varepsilon$ и $\xi$~--- обратимые элементы кольца, по предыдущей теореме $y_s \not\equiv 0 \pmod{p}, \ z_s \not\equiv 0 \pmod{p}$.
+        Подставим в предыдущее сравнения $s = m$:
+        \[ p^m y_m \equiv p^k z_m \not\equiv 0 \pmod{p^{m + 1}} \Rightarrow k \le m \]
+        Так как мы можем проделать то же самое абсолютно симметрично для $k$, мы также имеем $k \ge m$, а значит
+        $k = m$.
+        То есть, мы получили, что $y_{m + s} \equiv z_{m + s} \pmod{p^{s + 1}}$, а так как $y_{s + 1} \equiv y_s \pmod{p^{s + 1}}, \ z_{s + 1} \equiv z_s \pmod{p^{s + 1}}$,
+        мы имеем $z_s \equiv y_s \pmod{p^{s + 1}} \ \forall s \ge 0 \Rightarrow \varepsilon = \xi$.
+    \end{proof}
+    \begin{corollary}
+        $\mathbb{Z}_p$~--- область целостности.
+     \end{corollary}
+    \begin{proof}
+        Упражнение в листочке.
+    \end{proof}
+
+    Теперь ясно, что число $m$ в представлении $\alpha = p^m \varepsilon$~--- $p$-адический показатель $\alpha$ ($\upsilon_p(\alpha)$).
+
+    В терминах $p$-адического показателя легко вырадать свойства делимости $p$-адических чисел.
+    \begin{corollary}
+        Целое $p$-адическое число $\alpha$ делится на целое $p$-адическое число $\beta$ тогда и только тогда, когда
+        $\upsilon_p(\alpha) \ge \upsilon(\beta)$.
+     \end{corollary}
+
+    Резюмируя всё это, мы получили, что в кольце $\mathbb{Z}_p$ всего один (с точностью до ассоциированности) простой элемент~--- число $p$,
+    а все остальные (отличные от нуля)~--- его степени, домноженные на обратимые.
+
+    \subsection{Поле $p$-адических чисел, как поле частных кольца $\mathbb{Z}_p$.}
+
+    Как мы уже выяснили, кольцо $\mathbb{Z}_p$~--- область целостности, его можно вложить в поле частных, используя
+    конструкцию локализации (\textcolor{blue}{надеюсь, вы знаете, что это такое}).\\
+    В нашем случае это сводится к рассмотрению дробей $\alpha / p^k$, где $\alpha \in \mathbb{Z}_p, \ k \ge 0$.
+    \begin{definition}
+        Дробь вида $\alpha / p^k$, где $\alpha \in \mathbb{Z}_p$, а $k \ge 0$ называется дробным $p$-адмическим числом
+        или просто $p$-адическим числом.
+    \end{definition}
+    \begin{remark}
+         Две дроби $\alpha / p^k$ и $\beta / p^m$ определяют одно и то же $p$-адическое число, если $\alpha p^m = \beta p^k$.
+    \end{remark}
+
+    \begin{definition}
+        Полем  $p$-адических чисел $\mathbb{Q}_p$ называется поле частных кольца целых $p$-адических чисел $\mathbb{Z}_p$.
+    \end{definition}
+
+    \begin{theorem}
+
+    \end{theorem}
+
+    \subsection{Поле $p$-адических чисел, как пополнение.}
+    
 \end{document}

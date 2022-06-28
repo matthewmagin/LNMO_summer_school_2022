@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d2ef4d4-458d-497c-b28d-c94a48bcafe7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Basic number theory/src/exercises.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.log" afterDir="false" />
@@ -12,15 +11,6 @@
       <change beforePath="$PROJECT_DIR$/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercises.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preamble.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/preamble.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/out/main.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/out/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/out/main.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/out/main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/out/main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/out/main.toc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebraic geometry and Number theory/Abstract (draft)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebraic geometry and Number theory/Abstract (draft)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify>
@@ -80,7 +70,8 @@
       <updated>1655860174424</updated>
       <workItem from="1655860180720" duration="6832000" />
       <workItem from="1655971793235" duration="24000" />
-      <workItem from="1656331029485" duration="7137000" />
+      <workItem from="1656331029485" duration="9863000" />
+      <workItem from="1656424043124" duration="2295000" />
     </task>
     <servers />
   </component>
