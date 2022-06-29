@@ -47,7 +47,7 @@
         <viewer-command />
         <compiler-arguments />
         <envs />
-        <main-file>$PROJECT_DIR$/src/main.tex</main-file>
+        <main-file>$PROJECT_DIR$/src/exercises.tex</main-file>
         <output-path>$PROJECT_DIR$/out</output-path>
         <auxil-path>{projectDir}/auxil</auxil-path>
         <compile-twice>false</compile-twice>
@@ -71,7 +71,7 @@
       <workItem from="1655860180720" duration="6832000" />
       <workItem from="1655971793235" duration="24000" />
       <workItem from="1656331029485" duration="9863000" />
-      <workItem from="1656424043124" duration="2295000" />
+      <workItem from="1656424043124" duration="9127000" />
     </task>
     <servers />
   </component>

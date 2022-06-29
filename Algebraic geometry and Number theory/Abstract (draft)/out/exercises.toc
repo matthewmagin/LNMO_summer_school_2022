@@ -1,0 +1,3 @@
+\babel@toc {russian}{}\relax 
+\contentsline {subsection}{\numberline {0.1}ТЧ: напоминание, чтобы быть в форме}{3}{subsection.0.1}%
+\contentsline {subsection}{\numberline {0.2}Нормированное поле. Неархимедовы нормы.}{3}{subsection.0.2}%
