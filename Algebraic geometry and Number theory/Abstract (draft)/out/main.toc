@@ -1,10 +1,11 @@
 \babel@toc {russian}{}\relax 
 \contentsline {section}{\numberline {1.}Нормированные поля}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Нормированное поле. Неархимедовы нормы.}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Эквивалентные нормы.}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Пополнение метрических пространств.}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Пополнение нормированного поля.}{5}{subsection.1.4}%
-\contentsline {section}{\numberline {2.}$p$-адические числа}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Кольцо целых $p$-адических чисел.}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Поле $p$-адических чисел, как поле частных кольца $\mathbb {Z}_p$.}{10}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Поле $p$-адических чисел, как пополнение.}{10}{subsection.2.3}%
+\contentsline {section}{\numberline {2.}$p$-адические числа}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Кольцо целых $p$-адических чисел.}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Локализация и поле частных колцьа.}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Поле $p$-адических чисел, как поле частных кольца $\mathbb {Z}_p$.}{9}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Эквивалентные нормы.}{9}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Пополнение метрических пространств.}{9}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Пополнение нормированного поля.}{11}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Поле $p$-адических чисел, как пополнение.}{13}{subsection.2.7}%

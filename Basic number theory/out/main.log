@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  29 JUN 2022 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  29 JUN 2022 17:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**exercises.tex
-(./exercises.tex
+**main.tex
+(./main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
@@ -129,34 +129,8 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks20
 \inpenc@posthook=\toks21
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2022/02/26 3.73 The Babel package
-\babel@savecnt=\count276
-\U@D=\dimen167
-\l@unhyphenated=\language87
-
-(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count277
-
-(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language21). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language21). Reported on input line 108.
-)
-(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-russian/russianb.ldf
-File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
-Language: russian 2020/09/09 1.3k Russian support for the Babel system
-
-
-Package babel Warning: No Cyrillic font encoding has been loaded so far.
-(babel)                A font encoding should be declared before babel.
-(babel)                Default `T2A' encoding will be loaded  on input line 78.
-
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2aenc.def
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
@@ -362,6 +336,34 @@ File: t2aenc.dfu 2021/06/21 v1.2n UTF-8 support
    defining Unicode char U+FB05 (decimal 64261)
    defining Unicode char U+FB06 (decimal 64262)
 ))
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+12.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count276
+\U@D=\dimen167
+\l@unhyphenated=\language87
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count277
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-russian/russianb.ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
 Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
 ))
@@ -689,11 +691,25 @@ rs
 )
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 71.
+less on input line 72.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 73.
+less on input line 74.
+
+
+./preamble.tex:104: LaTeX Error: Command \gcd already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 \DeclareMathOperator{\gcd}{gcd}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
@@ -829,15 +845,9 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count327
 \l__pdf_internal_box=\box103
 )
-(/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebraic geometry and Nu
-mber theory/Abstract (draft)/out/exercises.aux
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
-3.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
-\openout1 = `exercises.aux'.
+(/Users/user/Documents/GitHub/LNMO_summer_school_2022/Basic number theory/out/m
+ain.aux)
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -947,74 +957,73 @@ LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
 LaTeX Info: Redefining \nameref on input line 11.
 
-(/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebraic geometry and Nu
-mber theory/Abstract (draft)/out/exercises.out)
-(/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebraic geometry and Nu
-mber theory/Abstract (draft)/out/exercises.out)
+(/Users/user/Documents/GitHub/LNMO_summer_school_2022/Basic number theory/out/m
+ain.out)
+(/Users/user/Documents/GitHub/LNMO_summer_school_2022/Basic number theory/out/m
+ain.out)
 \@outlinefile=\write3
-\openout3 = `exercises.out'.
+\openout3 = `main.out'.
 
 
-(/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebraic geometry and Nu
-mber theory/Abstract (draft)/out/exercises.toc
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 2
+(/Users/user/Documents/GitHub/LNMO_summer_school_2022/Basic number theory/out/m
+ain.toc
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 3
 .
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/omlcmr.fd
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OML/cmr/m/up' undefined
-(Font)              using `OML/cmr/m/it' instead on input line 2.
+(Font)              using `OML/cmr/m/it' instead on input line 3.
 
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 2.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 2.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 2.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
 .
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OMS/cmr/m/up' undefined
-(Font)              using `OMS/cmr/m/n' instead on input line 2.
+(Font)              using `OMS/cmr/m/n' instead on input line 3.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for PD1+cmr on input line 2
+LaTeX Font Info:    Trying to load font information for PD1+cmr on input line 3
 .
-LaTeX Font Info:    No file PD1cmr.fd. on input line 2.
+LaTeX Font Info:    No file PD1cmr.fd. on input line 3.
 
 
 LaTeX Font Warning: Font shape `PD1/cmr/m/up' undefined
-(Font)              using `PD1/pdf/m/n' instead on input line 2.
+(Font)              using `PD1/pdf/m/n' instead on input line 3.
 
-LaTeX Font Info:    Trying to load font information for PU+cmr on input line 2.
+LaTeX Font Info:    Trying to load font information for PU+cmr on input line 3.
 
-LaTeX Font Info:    No file PUcmr.fd. on input line 2.
+LaTeX Font Info:    No file PUcmr.fd. on input line 3.
 
 LaTeX Font Warning: Font shape `PU/cmr/m/up' undefined
-(Font)              using `PU/pdf/m/n' instead on input line 2.
+(Font)              using `PU/pdf/m/n' instead on input line 3.
 
 )
 \tf@toc=\write4
-\openout4 = `exercises.toc'.
+\openout4 = `main.toc'.
 
 
 
@@ -1028,31 +1037,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-21.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-
- []
+./main.tex:28: Undefined control sequence.
+l.28 	\item $a \divisible m$ Рё $b \divisiblem
+                                              $ $\Longrightarrow$ $(a \pm b)...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
+./main.tex:38: LaTeX Error: \begin{remark} on input line 34 ended by \end{remar
+k }.
 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 }
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
@@ -1065,6 +1074,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1074,43 +1097,193 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-(/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebraic geometry and Nu
-mber theory/Abstract (draft)/out/exercises.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+242.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 287--291
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 326--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--344
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6]
+./main.tex:374: Undefined control sequence.
+l.374 $y = 0\colom
+                   \ (x + 12)$ $\divisible$ $9$, Р° Р·РЅР°С‡РёС‚ $x = 6$.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--396
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7]
+Overfull \hbox (23.29819pt too wide) in paragraph at lines 422--424
+\T2A/cmr/m/it/10.95 на-зы-ва-ет-ся наи-мень-шим об-щим крат-ным чи-сел $\OML/cm
+m/m/it/10.95 a[]; [] ; a[]$ \T2A/cmr/m/it/10.95 и обо-зна-ча-ет-ся $[]\PU/pdf/m
+/n/10.95 (\OML/cmm/m/it/10.95 a[]; [] ; a[]\PU/pdf/m/n/10.95 )$ \T2A/cmr/m/it/1
+0.95 или $\PU/pdf/m/n/10.95 [\OML/cmm/m/it/10.95 a[]; [] ; a[]\PU/pdf/m/n/10.95
+ ]$\T2A/cmr/m/it/10.95 . 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8]
+
+LaTeX Font Warning: Font shape `T2A/cmr/m/scit' undefined
+(Font)              using `T2A/cmr/m/sc' instead on input line 512.
+
+
+LaTeX Font Warning: Font shape `T2A/cmr/m/scit' undefined
+(Font)              using `T2A/cmr/m/sc' instead on input line 513.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9]
+
+LaTeX Font Warning: Font shape `T2A/cmr/m/scit' undefined
+(Font)              using `T2A/cmr/m/sc' instead on input line 553.
+
+
+LaTeX Font Warning: Font shape `T2A/cmr/m/scit' undefined
+(Font)              using `T2A/cmr/m/sc' instead on input line 554.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--579
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11]
+(/Users/user/Documents/GitHub/LNMO_summer_school_2022/Basic number theory/out/m
+ain.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `exercises.out' has not changed.
-(rerunfilecheck)             Checksum: BDD5BD97643B628AE75416246E2E2181;676.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: DD6EEA72E419093A361B7BA887707716;2675.
  ) 
 Here is how much of TeX's memory you used:
- 17724 strings out of 478268
- 283242 string characters out of 5846348
- 586098 words of memory out of 5000000
- 35624 multiletter control sequences out of 15000+600000
- 481279 words of font info for 57 fonts, out of 8000000 for 9000
+ 18091 strings out of 478268
+ 290300 string characters out of 5846348
+ 602577 words of memory out of 5000000
+ 35885 multiletter control sequences out of 15000+600000
+ 483387 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,11n,78p,403b,371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,12n,78p,594b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
-}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/t
-exlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texli
-ve/2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/cm-super/sfxc1095.pfb>
-Output written on "/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebra
-ic geometry and Number theory/Abstract (draft)/out/exercises.pdf" (3 pages, 187
-761 bytes).
+}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/20
+22/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2022
+/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb>
+Output written on "/Users/user/Documents/GitHub/LNMO_summer_school_2022/Basic n
+umber theory/out/main.pdf" (11 pages, 319100 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
