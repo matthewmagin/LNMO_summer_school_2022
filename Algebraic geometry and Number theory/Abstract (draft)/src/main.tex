@@ -207,8 +207,8 @@
         Таким образом, $\alpha \beta = 1 \Rightarrow \alpha \in \mathbb{Z}_p^{*}$.
     \end{proof}
 
-    \begin{theorem}
-        Любое отлчиное от нуля целое $p$-адическое число $\alpha$ можно представить в виде
+    \begin{theorem}\label{predstp-adic}
+        Любое отлчиное от нуля целое $p$-адическое число $\alpha$ можно единственным образом представить в виде
         \[ \alpha = p^m \cdot \varepsilon, \quad \varepsilon \in \mathbb{Z}_p^{*}, \ m \in \mathbb{N} \]
 
     \end{theorem}
@@ -343,12 +343,12 @@
         то есть, первое свойство выполнено. \\
 
         Пусть $\varphi\colon R \to A$~--- такой гомоморфизм колец, что $\varphi(s) \in A^* \ \forall s \in S$.
-        Определим отображение $\psi\colon S^{-1}R \ to A$ равенством $\psi(\frac{r}{s}) = \varphi(r) \varphi(s)^{-1}$. \\
+        Определим отображение $\psi\colon S^{-1}R \to A$ равенством $\psi(\frac{r}{s}) = \varphi(r) \varphi(s)^{-1}$. \\
 
         Если $\frac{r'}{s'} = \frac{r}{s}$, то по определению
         \[ \frac{r'}{s'} = \frac{r}{s} \Leftrightarrow r' s = r s', \ s'' \in S \Rightarrow \varphi(s'')\varphi(r')\varphi(s) = \varphi(s'') \varphi(r) \varphi(s') \]
-        Домножим на $\vaphi(s'')^{-1} \varphi(s')^{-1} \varphi(s')^{-1}$, получим
-        \[ 'varphi(r') \varphi(s')^{-1} = \varphi(r) \varphi(s)^{-1} \]
+        Домножим на $\varphi(s'')^{-1} \varphi(s')^{-1} \varphi(s')^{-1}$, получим
+        \[ \varphi(r') \varphi(s')^{-1} = \varphi(r) \varphi(s)^{-1} \]
         а значит, $\psi$ определён корректно. Так как $\varphi(1) = 1$, имеем $\varphi = \psi \circ \lambda_{S}$. Ясно, что $\psi$~--- гомоморфизм. \\
 
         Равенство $\varphi = \psi \circ \lambda_{S}$ однозначно задаёт $\psi(\frac{r}{1}) = \varphi(r)$. Так как $\psi$ должен
@@ -378,7 +378,8 @@
 
     \begin{lemma}
         Пусть $R$~--- область целостности, а $S = R\seminus \{ 0 \}$. Тогда $F = S^{-1}R$ является полем, а гомоморфизм
-        локализации $\lambda_{S}\colon R \to F$ инъективен, а $\lambda_{S}$ удовлетворяет 
+        локализации $\lambda_{S}\colon R \to F$ инъективен, а $\lambda_{S}$ удовлетворяет следующему универсальному свойству:
+        для любого поля $K$ и мономорфизма $R \to K$ существует единственный мономорфизм $\psi\colon F \to K$, что $\varphi = \psi \circ \lambda_s$.
     \end{lemma}
 
     \subsection{Поле $p$-адических чисел, как поле частных кольца $\mathbb{Z}_p$.}
@@ -394,13 +395,20 @@
          Две дроби $\alpha / p^k$ и $\beta / p^m$ определяют одно и то же $p$-адическое число, если $\alpha p^m = \beta p^k$.
     \end{remark}
 
+
     \begin{definition}
         Полем  $p$-адических чисел $\mathbb{Q}_p$ называется поле частных кольца целых $p$-адических чисел $\mathbb{Z}_p$.
     \end{definition}
 
     \begin{theorem}
-
+        Всякое $p$-адическое число $\xi \neq 0$ единственным образом представляется в виде
+        \[ \xi = p^m \cdot \varepsilon, \quad m \in \mathbb{Z}, \ \varepsilon \in \mathbb{Z}_p^{*} \]
     \end{theorem}
+    \begin{proof}
+        Пусть $\xi = \alpha / p^k, \ \alpha \in \mathbb{Z}_p$. По теореме \ref{predstp-adic}  $\alpha$ можно представить в виде
+        $p^{\ell} \varepsilon, \ \ell \ge 0, \varepsilon \in \mathbb{Z}_p^{*}$. Тогда $\xi = p^m \varepsilon, m = \ell - k$.\\
+        Единственность вытеакет из единственности представления для \ref{predstp-adic}.
+    \end{proof}
 
     \subsection{Эквивалентные нормы.}
     Пока не знаю, буду ли рассказывать.

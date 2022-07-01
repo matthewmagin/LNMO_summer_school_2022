@@ -9,9 +9,14 @@
       <change beforePath="$PROJECT_DIR$/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.synctex.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/program.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/program.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/program.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/program.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/program.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/program.synctex.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/main.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/program.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/program.tex" afterDir="false" />
     </list>
@@ -78,7 +83,10 @@
       <workItem from="1656505918195" duration="1136000" />
       <workItem from="1656522816931" duration="1854000" />
       <workItem from="1656527103568" duration="14137000" />
-      <workItem from="1656608668135" duration="4199000" />
+      <workItem from="1656608668135" duration="4400000" />
+      <workItem from="1656625366163" duration="90000" />
+      <workItem from="1656626839515" duration="1366000" />
+      <workItem from="1656661930705" duration="1048000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  29 JUN 2022 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  1 JUL 2022 00:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1115,12 +1115,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-242.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 287--291
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--289
 
  []
 
@@ -1133,12 +1133,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 326--329
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+314.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 324--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--344
+Underfull \hbox (badness 10000) in paragraph at lines 337--342
 
  []
 
@@ -1151,8 +1156,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6]
-./main.tex:374: Undefined control sequence.
-l.374 $y = 0\colom
+./main.tex:372: Undefined control sequence.
+l.372 $y = 0\colom
                    \ (x + 12)$ $\divisible$ $9$, Р° Р·РЅР°С‡РёС‚ $x = 6$.\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1161,12 +1166,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--375
+Underfull \hbox (badness 10000) in paragraph at lines 370--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--396
+Underfull \hbox (badness 10000) in paragraph at lines 390--394
 
  []
 
@@ -1179,14 +1184,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7]
-Overfull \hbox (23.29819pt too wide) in paragraph at lines 422--424
-\T2A/cmr/m/it/10.95 на-зы-ва-ет-ся наи-мень-шим об-щим крат-ным чи-сел $\OML/cm
-m/m/it/10.95 a[]; [] ; a[]$ \T2A/cmr/m/it/10.95 и обо-зна-ча-ет-ся $[]\PU/pdf/m
-/n/10.95 (\OML/cmm/m/it/10.95 a[]; [] ; a[]\PU/pdf/m/n/10.95 )$ \T2A/cmr/m/it/1
-0.95 или $\PU/pdf/m/n/10.95 [\OML/cmm/m/it/10.95 a[]; [] ; a[]\PU/pdf/m/n/10.95
- ]$\T2A/cmr/m/it/10.95 . 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1196,70 +1193,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
-
-LaTeX Font Warning: Font shape `T2A/cmr/m/scit' undefined
-(Font)              using `T2A/cmr/m/sc' instead on input line 512.
-
-
-LaTeX Font Warning: Font shape `T2A/cmr/m/scit' undefined
-(Font)              using `T2A/cmr/m/sc' instead on input line 513.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[9]
-
-LaTeX Font Warning: Font shape `T2A/cmr/m/scit' undefined
-(Font)              using `T2A/cmr/m/sc' instead on input line 553.
-
-
-LaTeX Font Warning: Font shape `T2A/cmr/m/scit' undefined
-(Font)              using `T2A/cmr/m/sc' instead on input line 554.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[10]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[11]
 (/Users/user/Documents/GitHub/LNMO_summer_school_2022/Basic number theory/out/m
 ain.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DD6EEA72E419093A361B7BA887707716;2675.
+(rerunfilecheck)             Checksum: C797592933B17D958E811BA4926A15FD;1572.
  ) 
 Here is how much of TeX's memory you used:
- 18091 strings out of 478268
- 290300 string characters out of 5846348
- 602577 words of memory out of 5000000
- 35885 multiletter control sequences out of 15000+600000
- 483387 words of font info for 60 fonts, out of 8000000 for 9000
+ 18045 strings out of 478268
+ 289822 string characters out of 5846348
+ 602499 words of memory out of 5000000
+ 35877 multiletter control sequences out of 15000+600000
+ 482603 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,12n,78p,594b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,12n,78p,492b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 }{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1274,16 +1223,15 @@ cal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/loca
 l/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/
 texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/
-2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2022
-/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb>
+ive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/20
+22/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb>
 Output written on "/Users/user/Documents/GitHub/LNMO_summer_school_2022/Basic n
-umber theory/out/main.pdf" (11 pages, 319100 bytes).
+umber theory/out/main.pdf" (8 pages, 283509 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
- 114 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

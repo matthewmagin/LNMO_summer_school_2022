@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {2.1}Кольцо целых $p$-адических чисел.}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Локализация и поле частных колцьа.}{6}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Поле $p$-адических чисел, как поле частных кольца $\mathbb {Z}_p$.}{9}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Эквивалентные нормы.}{9}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Эквивалентные нормы.}{10}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Пополнение метрических пространств.}{10}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Пополнение нормированного поля.}{11}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.6}Пополнение нормированного поля.}{12}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Поле $p$-адических чисел, как пополнение.}{13}{subsection.2.7}%
