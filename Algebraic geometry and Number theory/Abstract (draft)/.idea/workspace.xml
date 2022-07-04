@@ -3,19 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7d2ef4d4-458d-497c-b28d-c94a48bcafe7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/main.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/exercises.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/exercises.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/main.tex" afterDir="false" />
     </list>
@@ -89,6 +83,8 @@
       <workItem from="1656694856329" duration="26000" />
       <workItem from="1656713157263" duration="9347000" />
       <workItem from="1656783450258" duration="1233000" />
+      <workItem from="1656848256445" duration="669000" />
+      <workItem from="1656886451800" duration="830000" />
     </task>
     <servers />
   </component>
