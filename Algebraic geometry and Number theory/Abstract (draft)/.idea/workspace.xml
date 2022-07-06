@@ -5,21 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/programm.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/programm.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/programm.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/programm.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/programm.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/programm.synctex.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programm.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/programm.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/exercises.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/exercises.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/exercises.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/exercises.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/exercises.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/exercises.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/exercises.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/exercises.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/exercises.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/exercises.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/exercises.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/exercises.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +84,7 @@
       <workItem from="1656924062120" duration="284000" />
       <workItem from="1657003405511" duration="6773000" />
       <workItem from="1657037350290" duration="149000" />
+      <workItem from="1657084628240" duration="7826000" />
     </task>
     <servers />
   </component>
