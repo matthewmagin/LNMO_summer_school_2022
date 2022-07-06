@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  29 JUN 2022 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  5 JUL 2022 15:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -903,6 +903,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <8> not available
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
 
+Overfull \hbox (4.66873pt too wide) in paragraph at lines 56--57
+[]\T2A/anttc/m/n/12 Ряды в по-ле $\U/msb/m/n/12 Q[]$\T2A/anttc/m/n/12 . Кри-те-
+рий схо-ди-мо-сти ря-да с $\OML/anttc/m/it/12 p$\T2A/anttc/m/n/12 -адическими ч
+ле-на-ми. Пред-став-ле-ние $\OML/anttc/m/it/12 p$\T2A/anttc/m/n/12 -адического
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -922,24 +929,25 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  11426 strings out of 478268
  187967 string characters out of 5846348
- 473593 words of memory out of 5000000
+ 475593 words of memory out of 5000000
  29368 multiletter control sequences out of 15000+600000
  502818 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,11n,76p,312b,273s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,11n,76p,376b,273s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/antt/antt-rm.enc}{/usr/lo
-cal/texlive/2022/texmf-dist/fonts/enc/dvips/antt/antt-mi.enc}{/usr/local/texliv
-e/2022/texmf-dist/fonts/enc/dvips/antt/antt-t2a.enc}</usr/local/texlive/2022/te
-xmf-dist/fonts/type1/public/antt/anttcb.pfb></usr/local/texlive/2022/texmf-dist
-/fonts/type1/public/antt/anttcr.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
-ype1/public/antt/anttcri.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb>
+cal/texlive/2022/texmf-dist/fonts/enc/dvips/antt/antt-sy.enc}{/usr/local/texliv
+e/2022/texmf-dist/fonts/enc/dvips/antt/antt-mi.enc}{/usr/local/texlive/2022/tex
+mf-dist/fonts/enc/dvips/antt/antt-t2a.enc}</usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/antt/anttcb.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
+e1/public/antt/anttcr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/antt/anttcri.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfo
+nts/symbols/msbm10.pfb>
 Output written on "/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebra
-ic geometry and Number theory/Abstract (draft)/out/programm.pdf" (1 page, 13434
-1 bytes).
+ic geometry and Number theory/Abstract (draft)/out/programm.pdf" (1 page, 13557
+7 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
