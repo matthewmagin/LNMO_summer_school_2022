@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  7 JUL 2022 10:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  9 JUL 2022 11:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -961,12 +961,12 @@ LaTeX Font Info:    Trying to load font information for T2A+cmss on input line
 (/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-<Title.jpg, id=80, 857.2025pt x 1084.05pt>
+<Title.jpg, id=100, 857.2025pt x 1084.05pt>
 File: Title.jpg Graphic file (type jpg)
 <use Title.jpg>
 Package pdftex.def Info: Title.jpg  used on input line 16.
 (pdftex.def)             Requested size: 342.87492pt x 433.61232pt.
-<lnmo logo.jpg, id=81, 497.86pt x 88.33pt>
+<lnmo logo.jpg, id=101, 497.86pt x 88.33pt>
 File: lnmo logo.jpg Graphic file (type jpg)
 <use lnmo logo.jpg>
 Package pdftex.def Info: lnmo logo.jpg  used on input line 25.
@@ -1180,7 +1180,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./cd.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<cd.pdf, id=182, 124.1137pt x 58.49855pt>
+<cd.pdf, id=207, 124.1137pt x 58.49855pt>
 File: cd.pdf Graphic file (type pdf)
 <use cd.pdf>
 Package pdftex.def Info: cd.pdf  used on input line 281.
@@ -1546,7 +1546,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
-<pictures//pic_1.png, id=337, 811.03pt x 849.1725pt>
+<pictures//pic_1.png, id=362, 811.03pt x 849.1725pt>
 File: pictures//pic_1.png Graphic file (type png)
 <use pictures//pic_1.png>
 Package pdftex.def Info: pictures//pic_1.png  used on input line 911.
@@ -1605,7 +1605,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1031--1035
 
  []
 
-<pictures//pic_7.jpeg, id=365, 1447.4075pt x 1003.75pt>
+<pictures//pic_7.jpeg, id=390, 1447.4075pt x 1003.75pt>
 File: pictures//pic_7.jpeg Graphic file (type jpg)
 <use pictures//pic_7.jpeg>
 Package pdftex.def Info: pictures//pic_7.jpeg  used on input line 1038.
@@ -1630,7 +1630,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures//cd_2.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pictures//cd_2.pdf, id=381, 97.8857pt x 60.76703pt>
+<pictures//cd_2.pdf, id=406, 97.8857pt x 60.76703pt>
 File: pictures//cd_2.pdf Graphic file (type pdf)
 <use pictures//cd_2.pdf>
 Package pdftex.def Info: pictures//cd_2.pdf  used on input line 1058.
@@ -1653,24 +1653,67 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [24]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25]
+Overfull \hbox (0.50783pt too wide) in paragraph at lines 1195--1196
+[]\T2A/cmr/bx/n/10.95 —уществование\T2A/cmr/m/n/10.95 . ѕо опре-де-ле-нию су-ще
+-ству-ет кака€-то би-ли-ней-на€ фор-ма $\OML/cmm/m/it/10.95 B$\T2A/cmr/m/n/10.9
+5 , та-ка€ что $\OML/cmm/m/it/10.95 Q\PU/cmr/m/up/10.95 (\OML/cmm/m/it/10.95 x\
+PU/cmr/m/up/10.95 ) =
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[26]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[27]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[28]
 (/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebraic geometry and Nu
 mber theory/Abstract (draft)/out/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D7C75DC6929F9E15C808C428C6C72A43;6038.
+(rerunfilecheck)             Checksum: 0B661019CA73701E0265301C3E465CAB;7460.
  ) 
 Here is how much of TeX's memory you used:
- 18073 strings out of 478268
- 287953 string characters out of 5846348
+ 18114 strings out of 478268
+ 288403 string characters out of 5846348
  601166 words of memory out of 5000000
- 35779 multiletter control sequences out of 15000+600000
- 495455 words of font info for 92 fonts, out of 8000000 for 9000
+ 35786 multiletter control sequences out of 15000+600000
+ 497108 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,14n,78p,722b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
+ 66i,14n,78p,906b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
+}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
 usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
@@ -1699,16 +1742,17 @@ ist/fonts/type1/public/cm-super/sfsi1200.pfb></usr/local/texlive/2022/texmf-dis
 t/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2022/texmf-dist/
 fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2022/texmf-dist/fo
 nts/type1/public/cm-super/sfss2986.pfb></usr/local/texlive/2022/texmf-dist/font
-s/type1/public/cm-super/sftc1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/
-type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
-pe1/public/cm-super/sftt1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
-1/public/cm-super/sfxc1095.pfb>
+s/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/cm-super/sftc1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/public/cm-super/sfti1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
+1/public/cm-super/sftt1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
+public/cm-super/sfxc1095.pfb>
 Output written on "/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebra
-ic geometry and Number theory/Abstract (draft)/out/main.pdf" (25 pages, 998759 
-bytes).
+ic geometry and Number theory/Abstract (draft)/out/main.pdf" (29 pages, 1029869
+ bytes).
 PDF statistics:
- 576 PDF objects out of 1000 (max. 8388607)
- 477 compressed objects within 5 object streams
- 175 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 546 compressed objects within 6 object streams
+ 207 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
