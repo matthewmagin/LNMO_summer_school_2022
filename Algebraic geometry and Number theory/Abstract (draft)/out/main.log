@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  10 JUL 2022 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  11 JUL 2022 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -961,12 +961,12 @@ LaTeX Font Info:    Trying to load font information for T2A+cmss on input line
 (/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-<Title.jpg, id=100, 857.2025pt x 1084.05pt>
+<Title.jpg, id=108, 857.2025pt x 1084.05pt>
 File: Title.jpg Graphic file (type jpg)
 <use Title.jpg>
 Package pdftex.def Info: Title.jpg  used on input line 16.
 (pdftex.def)             Requested size: 342.87492pt x 433.61232pt.
-<lnmo logo.jpg, id=101, 497.86pt x 88.33pt>
+<lnmo logo.jpg, id=109, 497.86pt x 88.33pt>
 File: lnmo logo.jpg Graphic file (type jpg)
 <use lnmo logo.jpg>
 Package pdftex.def Info: lnmo logo.jpg  used on input line 25.
@@ -1073,42 +1073,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <14.4> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 119.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 119.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 119.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 119.
+(hyperref)                removing `math shift' on input line 116.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 119.
+(hyperref)                removing `math shift' on input line 116.
 
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 120.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 117.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 120.
+(hyperref)                removing `math shift' on input line 117.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 120.
+(hyperref)                removing `math shift' on input line 117.
 
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 123.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 120.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 123.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1118,8 +1118,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-./main.tex:149: Undefined control sequence.
-l.149 ... С‡С‚Рѕ $\forall \varepsilon > 0 \ \eists
+./main.tex:146: Undefined control sequence.
+l.146 ...‡С‚Рѕ \\$\forall \varepsilon > 0 \ \eists
                                                    N\colon \forall n > N \ |...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1128,12 +1128,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--162
+Underfull \hbox (badness 10000) in paragraph at lines 154--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
@@ -1146,7 +1146,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
 
  []
 
@@ -1159,12 +1159,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--267
+Underfull \hbox (badness 10000) in paragraph at lines 260--264
 
  []
 
@@ -1180,23 +1180,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./cd.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<cd.pdf, id=207, 124.1137pt x 58.49855pt>
+<cd.pdf, id=216, 124.1137pt x 58.49855pt>
 File: cd.pdf Graphic file (type pdf)
 <use cd.pdf>
-Package pdftex.def Info: cd.pdf  used on input line 281.
+Package pdftex.def Info: cd.pdf  used on input line 278.
 (pdftex.def)             Requested size: 124.11339pt x 58.49838pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--289
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--315
+Underfull \hbox (badness 10000) in paragraph at lines 309--312
 
  []
 
@@ -1209,12 +1209,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7 <./cd.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 342--344
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--347
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
 
  []
 
@@ -1227,17 +1227,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 351--353
+Underfull \hbox (badness 10000) in paragraph at lines 348--350
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--375
+Underfull \hbox (badness 10000) in paragraph at lines 370--372
 
  []
 
-./main.tex:380: Undefined control sequence.
-l.380 ...С†РµР»РѕСЃС‚РЅРѕСЃС‚Рё, Р° $S = R\seminus
+./main.tex:377: Undefined control sequence.
+l.377 ...С†РµР»РѕСЃС‚РЅРѕСЃС‚Рё, Р° $S = R\seminus
                                                    \{ 0 \}$. РўРѕРіРґР° $F =...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1247,23 +1247,23 @@ and I'll forget about whatever was undefined.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 385.
+(hyperref)                removing `math shift' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 385.
+(hyperref)                removing `math shift' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 385.
+(hyperref)                removing `math shift' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 385.
+(hyperref)                removing `subscript' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 385.
+(hyperref)                removing `math shift' on input line 382.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1276,24 +1276,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 412.
+(hyperref)                removing `math shift' on input line 409.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 412.
+(hyperref)                removing `math shift' on input line 409.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--415
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
 
  []
 
 
-Overfull \hbox (8.95255pt too wide) in paragraph at lines 422--423
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+
+Overfull \hbox (8.95255pt too wide) in paragraph at lines 419--420
 [][]\T2A/cmr/bx/n/10.95 Определение 9. []\T2A/cmr/m/it/10.95 По-сле-до-ва-тель-
 ность $\OML/cmm/m/it/10.95 p$\T2A/cmr/m/it/10.95 -адических чи-сел $\OMS/cmsy/m
 /n/10.95 f\OML/cmm/m/it/10.95 ^^X[]\OMS/cmsy/m/n/10.95 g$ \T2A/cmr/m/it/10.95 н
@@ -1302,12 +1302,12 @@ Overfull \hbox (8.95255pt too wide) in paragraph at lines 422--423
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
  []
 
 
-Overfull \hbox (40.18678pt too wide) in paragraph at lines 440--442
+Overfull \hbox (40.18678pt too wide) in paragraph at lines 437--439
 []\T2A/cmr/m/n/10.95 Сначала от-ме-тим, что, на-чи-ная с неко-то-ро-го ме-ста $
 \OML/cmm/m/it/10.95 ^^][][] > ^^][][]$\T2A/cmr/m/n/10.95 , от-ку-да $\OML/cmm/m
 /it/10.95 ^^][][] \PU/cmr/m/up/10.95 = [](\OML/cmm/m/it/10.95 ^^][][]; ^^][][]\
@@ -1315,12 +1315,12 @@ PU/cmr/m/up/10.95 ) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--442
+Underfull \hbox (badness 10000) in paragraph at lines 437--439
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--447
+Underfull \hbox (badness 10000) in paragraph at lines 441--444
 
  []
 
@@ -1333,12 +1333,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 481--484
+Underfull \hbox (badness 10000) in paragraph at lines 478--481
 
  []
 
-./main.tex:486: Extra }, or forgotten \right.
-l.486 ...upsilon_p{ \left( \frac{x_n}{p^k} - \xi)}
+./main.tex:483: Extra }, or forgotten \right.
+l.483 ...upsilon_p{ \left( \frac{x_n}{p^k} - \xi)}
                                                    \right) = \upsilon_p{\lef...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1346,10 +1346,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./main.tex:486: Undefined control sequence.
+./main.tex:483: Undefined control sequence.
 <argument> n \to \iinfty 
                          
-l.486 ...alpha)} - k \xrightarrow[n \to \iinfty]{}
+l.483 ...alpha)} - k \xrightarrow[n \to \iinfty]{}
                                                    \infty \]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1357,10 +1357,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:486: Undefined control sequence.
+./main.tex:483: Undefined control sequence.
 <argument> ...00\else \mkern 0mu\fi n \to \iinfty 
                                                   \if 03\else \mkern 3mu\fi }
-l.486 ...alpha)} - k \xrightarrow[n \to \iinfty]{}
+l.483 ...alpha)} - k \xrightarrow[n \to \iinfty]{}
                                                    \infty \]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1368,10 +1368,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:486: Missing } inserted.
+./main.tex:483: Missing } inserted.
 <inserted text> 
                 }
-l.486 ...k \xrightarrow[n \to \iinfty]{} \infty \]
+l.483 ...k \xrightarrow[n \to \iinfty]{} \infty \]
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1380,16 +1380,16 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--488
+Underfull \hbox (badness 10000) in paragraph at lines 483--485
 
  []
 
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-499.
+496.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Overfull \hbox (27.79694pt too wide) in paragraph at lines 499--500
+Overfull \hbox (27.79694pt too wide) in paragraph at lines 496--497
 [][]\T2A/cmtt/m/n/10.95 Наверное, не успеваю рассказать. Можно прочитать в \T2A
 /cmtt/m/sc/10.95 книге Шафаревича (ссылку).[]
  []
@@ -1412,12 +1412,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 575--577
+Underfull \hbox (badness 10000) in paragraph at lines 572--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--580
+Underfull \hbox (badness 10000) in paragraph at lines 575--577
 
  []
 
@@ -1430,12 +1430,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 581--584
+Underfull \hbox (badness 10000) in paragraph at lines 578--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--600
+Underfull \hbox (badness 10000) in paragraph at lines 594--597
 
  []
 
@@ -1448,7 +1448,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14]
-Overfull \hbox (0.29987pt too wide) in paragraph at lines 639--642
+Overfull \hbox (0.29987pt too wide) in paragraph at lines 636--639
 [][]\T2A/cmr/bx/n/10.95 Теорема 14. []\T2A/cmr/bx/it/10.95 (Лем-ма Ген-зе-ля) \
 T2A/cmr/m/it/10.95 Пусть $\OML/cmm/m/it/10.95 f\PU/cmr/m/up/10.95 (\OML/cmm/m/i
 t/10.95 x\PU/cmr/m/up/10.95 ) \OMS/cmsy/m/n/10.95 2 \U/msb/m/n/10.95 Z[]\PU/cmr
@@ -1459,8 +1459,8 @@ t/10.95 x\PU/cmr/m/up/10.95 ) \OMS/cmsy/m/n/10.95 2 \U/msb/m/n/10.95 Z[]\PU/cmr
 t/10.95 <
  []
 
-./main.tex:660: Undefined control sequence.
-l.660 ...РµРЅРЅРѕРµ $\alpha \in \alpha_0 + p\mathb
+./main.tex:657: Undefined control sequence.
+l.657 ...РµРЅРЅРѕРµ $\alpha \in \alpha_0 + p\mathb
                                                   {Z}_p$ С‚Р°РєРѕРµ, С‡С‚Рѕ ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1487,32 +1487,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [16]
 
-./main.tex:759: LaTeX Error: Environment Theorem undefined.
+./main.tex:756: LaTeX Error: Environment Theorem undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.759     \begin{Theorem}
+l.756     \begin{Theorem}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:768: LaTeX Error: \begin{document} ended by \end{Theorem}.
+./main.tex:765: LaTeX Error: \begin{document} ended by \end{Theorem}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.768     \end{Theorem}
+l.765     \end{Theorem}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Trying to load font information for U+euf on input line 810
+LaTeX Font Info:    Trying to load font information for U+euf on input line 807
 .
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
@@ -1526,14 +1526,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 816--818
+Underfull \hbox (badness 10000) in paragraph at lines 813--815
 
  []
 
-./main.tex:828: Undefined control sequence.
+./main.tex:825: Undefined control sequence.
 <recently read> \mathfral 
                           
-l.828         СЃ $\mathfral
+l.825         СЃ $\mathfral
                            {A}$ РЅР° $F$:
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1542,7 +1542,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 857--858
+Underfull \hbox (badness 10000) in paragraph at lines 854--855
 
  []
 
@@ -1555,10 +1555,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
-<pictures//pic_1.png, id=362, 811.03pt x 849.1725pt>
+<pictures//pic_1.png, id=371, 811.03pt x 849.1725pt>
 File: pictures//pic_1.png Graphic file (type png)
 <use pictures//pic_1.png>
-Package pdftex.def Info: pictures//pic_1.png  used on input line 911.
+Package pdftex.def Info: pictures//pic_1.png  used on input line 908.
 (pdftex.def)             Requested size: 162.20313pt x 169.83148pt.
 
 
@@ -1570,7 +1570,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [19]
-Overfull \hbox (1.43889pt too wide) in paragraph at lines 914--915
+Overfull \hbox (1.43889pt too wide) in paragraph at lines 911--912
 []\T2A/cmr/m/it/10.95 Таким обо-азом, пе-ре-се-кая, мы по-лу-ча-ем вза-им-но-од
 -но-знач-ное со-от-вет-ствие меж-ду точ-ка-ми окруж-
  []
@@ -1593,37 +1593,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1003
+Underfull \hbox (badness 10000) in paragraph at lines 998--1000
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1029.
+(hyperref)                removing `math shift' on input line 1026.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1029.
+(hyperref)                removing `superscript' on input line 1026.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1029.
+(hyperref)                removing `math shift' on input line 1026.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1031--1035
+Underfull \hbox (badness 10000) in paragraph at lines 1028--1032
 
  []
 
-<pictures//pic_7.jpeg, id=390, 1447.4075pt x 1003.75pt>
+<pictures//pic_7.jpeg, id=399, 1447.4075pt x 1003.75pt>
 File: pictures//pic_7.jpeg Graphic file (type jpg)
 <use pictures//pic_7.jpeg>
-Package pdftex.def Info: pictures//pic_7.jpeg  used on input line 1038.
+Package pdftex.def Info: pictures//pic_7.jpeg  used on input line 1035.
 (pdftex.def)             Requested size: 217.10176pt x 150.556pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+Underfull \hbox (badness 10000) in paragraph at lines 1039--1040
 
  []
 
@@ -1639,10 +1639,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures//cd_2.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pictures//cd_2.pdf, id=406, 97.8857pt x 60.76703pt>
+<pictures//cd_2.pdf, id=416, 97.8857pt x 60.76703pt>
 File: pictures//cd_2.pdf Graphic file (type pdf)
 <use pictures//cd_2.pdf>
-Package pdftex.def Info: pictures//cd_2.pdf  used on input line 1058.
+Package pdftex.def Info: pictures//cd_2.pdf  used on input line 1055.
 (pdftex.def)             Requested size: 117.46223pt x 72.92006pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1671,7 +1671,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [25]
-Overfull \hbox (0.50783pt too wide) in paragraph at lines 1195--1196
+Overfull \hbox (0.50783pt too wide) in paragraph at lines 1192--1193
 []\T2A/cmr/bx/n/10.95 Существование\T2A/cmr/m/n/10.95 . По опре-де-ле-нию су-ще
 -ству-ет какая-то би-ли-ней-ная фор-ма $\OML/cmm/m/it/10.95 B$\T2A/cmr/m/n/10.9
 5 , та-кая что $\OML/cmm/m/it/10.95 Q\PU/cmr/m/up/10.95 (\OML/cmm/m/it/10.95 x\
@@ -1705,63 +1705,126 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [28]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[29]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[30]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[31]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[32]
+
+./main.tex:1639: LaTeX Error: \begin{remark} on input line 1480 ended by \end{d
+ocument}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1639 \end{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[33]
 (/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebraic geometry and Nu
 mber theory/Abstract (draft)/out/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0B661019CA73701E0265301C3E465CAB;7460.
- ) 
+(rerunfilecheck)             Checksum: 4F281C0AC9A2BF83F4E7374CF2F2496C;8152.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 1480 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 18113 strings out of 478268
- 288393 string characters out of 5846348
+ 18137 strings out of 478268
+ 288634 string characters out of 5846348
  601237 words of memory out of 5000000
- 35786 multiletter control sequences out of 15000+600000
+ 35788 multiletter control sequences out of 15000+600000
  497108 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,14n,78p,906b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
-}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
-exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/202
-2/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texm
-f-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2022/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/202
-2/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/
-2022/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2022
-/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/tex
-mf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2022/texmf
--dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-d
-ist/fonts/type1/public/cm-super/sfsi1200.pfb></usr/local/texlive/2022/texmf-dis
-t/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2022/texmf-dist/
-fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2022/texmf-dist/fo
-nts/type1/public/cm-super/sfss2986.pfb></usr/local/texlive/2022/texmf-dist/font
-s/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/
-type1/public/cm-super/sftc1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
-pe1/public/cm-super/sfti1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
-1/public/cm-super/sftt1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
-public/cm-super/sfxc1095.pfb>
+ 66i,14n,78p,1214b,676s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm
+-super-t2a.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-
+super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/20
+22/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2022
+/texmf-dist/fonts/type1/public/cm-super/sfss2986.pfb></usr/local/texlive/2022/t
+exmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/cm-super/sftc1095.pfb></usr/local/texlive/2022/texmf
+-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/cm-super/sfxc1095.pfb>
 Output written on "/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebra
-ic geometry and Number theory/Abstract (draft)/out/main.pdf" (29 pages, 1024585
+ic geometry and Number theory/Abstract (draft)/out/main.pdf" (34 pages, 1046505
  bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
- 545 compressed objects within 6 object streams
- 206 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 703 PDF objects out of 1000 (max. 8388607)
+ 592 compressed objects within 6 object streams
+ 228 named destinations out of 1000 (max. 500000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 
