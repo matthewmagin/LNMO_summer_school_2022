@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d2ef4d4-458d-497c-b28d-c94a48bcafe7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/exercises.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/exercises.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/exercises.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/exercises.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/exercises.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/exercises.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/exercises.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/exercises.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/exercises.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/exercises.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/exercises.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/exercises.tex" afterDir="false" />
-    </list>
+    <list default="true" id="7d2ef4d4-458d-497c-b28d-c94a48bcafe7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +86,7 @@
       <workItem from="1657355622566" duration="266000" />
       <workItem from="1657374775704" duration="33000" />
       <workItem from="1657453532492" duration="7539000" />
-      <workItem from="1657550114364" duration="1939000" />
+      <workItem from="1657550114364" duration="2298000" />
     </task>
     <servers />
   </component>
