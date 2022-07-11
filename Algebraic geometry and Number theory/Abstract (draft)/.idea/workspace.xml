@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d2ef4d4-458d-497c-b28d-c94a48bcafe7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/exercises.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/exercises.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/exercises.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/exercises.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/exercises.out" beforeDir="false" afterPath="$PROJECT_DIR$/out/exercises.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/exercises.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/exercises.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/exercises.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/exercises.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/exercises.toc" beforeDir="false" afterPath="$PROJECT_DIR$/out/exercises.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/exercises.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/exercises.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/exercises.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/exercises.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/exercises.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/exercises.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/exercises.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/exercises.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +53,7 @@
         <viewer-command />
         <compiler-arguments />
         <envs />
-        <main-file>$PROJECT_DIR$/src/exercises.tex</main-file>
+        <main-file>$PROJECT_DIR$/src/main.tex</main-file>
         <output-path>$PROJECT_DIR$/out</output-path>
         <auxil-path>{projectDir}/auxil</auxil-path>
         <compile-twice>false</compile-twice>
@@ -96,7 +101,8 @@
       <workItem from="1657353894339" duration="910000" />
       <workItem from="1657355622566" duration="266000" />
       <workItem from="1657374775704" duration="33000" />
-      <workItem from="1657453532492" duration="6879000" />
+      <workItem from="1657453532492" duration="7539000" />
+      <workItem from="1657550114364" duration="1939000" />
     </task>
     <servers />
   </component>

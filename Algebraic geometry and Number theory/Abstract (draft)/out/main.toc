@@ -13,15 +13,15 @@
 \contentsline {subsection}{\numberline {3.1}Квадрики и рациональная параметризация квадрик.}{19}{subsection.3.1}%
 \contentsline {section}{\numberline {4.}Проективная геометрия}{21}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Модели построения проективной плоскости и связь между ними}{21}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Проективные пространства и однородные координаты}{22}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Проективные пространства и однородные координаты.}{22}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Проективное пополнение аффинного пространства}{22}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Проективное пополнение $\mathbb {R}^n$}{22}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Проективные преобразования и проективный базис}{23}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Проективная классификация квадрик.}{24}{subsection.4.6}%
-\contentsline {section}{\numberline {5.}Квадратичные формы и квадрики}{25}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Билинейные формы}{25}{subsection.5.1}%
+\contentsline {subsection}{\numberline {4.5}Проективные преобразования и проективный базис. Преобразование Мёбиуса.}{23}{subsection.4.5}%
+\contentsline {section}{\numberline {5.}Квадратичные формы и квадрики}{24}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Билинейные формы}{24}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Квадратичные формы}{26}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Диагонализация билинейных форм}{27}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Квадрики на плоскости}{28}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Проективные квадрики}{31}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Классификация кривых и поверхностей второго порядка}{31}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.4}Квадрики на прямой. Проективизация квадрики.}{28}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Квадрики на плоскости. Проективные коники, топологическое строение коник на проективной плоскости. }{29}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Проективные квадрики}{31}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Классификация кривых и поверхностей второго порядка}{32}{subsection.5.7}%

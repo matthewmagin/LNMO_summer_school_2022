@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e0df3c5e-6d50-4fca-ae8f-35919d0b5511" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/Abstract (draft)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Abstract (draft)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract (draft)/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Abstract (draft)/src/main.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic number theory/out/exercises.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic number theory/out/exercises.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic number theory/out/exercises.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic number theory/out/exercises.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic number theory/out/exercises.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic number theory/out/exercises.synctex.gz" afterDir="false" />
@@ -41,6 +40,7 @@
       <updated>1656713056439</updated>
       <workItem from="1656713057906" duration="90000" />
       <workItem from="1657453515130" duration="12000" />
+      <workItem from="1657550008632" duration="83000" />
     </task>
     <servers />
   </component>
