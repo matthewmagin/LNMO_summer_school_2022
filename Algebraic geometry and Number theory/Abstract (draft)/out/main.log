@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  11 JUL 2022 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.8)  12 JUL 2022 11:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -689,11 +689,11 @@ rs
 )
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 71.
+less on input line 72.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 73.
+less on input line 74.
 
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
@@ -961,12 +961,12 @@ LaTeX Font Info:    Trying to load font information for T2A+cmss on input line
 (/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-<Title.jpg, id=108, 857.2025pt x 1084.05pt>
+<Title.jpg, id=124, 857.2025pt x 1084.05pt>
 File: Title.jpg Graphic file (type jpg)
 <use Title.jpg>
 Package pdftex.def Info: Title.jpg  used on input line 16.
 (pdftex.def)             Requested size: 342.87492pt x 433.61232pt.
-<lnmo logo.jpg, id=109, 497.86pt x 88.33pt>
+<lnmo logo.jpg, id=125, 497.86pt x 88.33pt>
 File: lnmo logo.jpg Graphic file (type jpg)
 <use lnmo logo.jpg>
 Package pdftex.def Info: lnmo logo.jpg  used on input line 25.
@@ -1180,7 +1180,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./cd.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<cd.pdf, id=217, 124.1137pt x 58.49855pt>
+<cd.pdf, id=237, 124.1137pt x 58.49855pt>
 File: cd.pdf Graphic file (type pdf)
 <use cd.pdf>
 Package pdftex.def Info: cd.pdf  used on input line 278.
@@ -1550,7 +1550,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
-<pictures//pic_1.png, id=374, 811.03pt x 849.1725pt>
+<pictures//pic_1.png, id=394, 811.03pt x 849.1725pt>
 File: pictures//pic_1.png Graphic file (type png)
 <use pictures//pic_1.png>
 Package pdftex.def Info: pictures//pic_1.png  used on input line 908.
@@ -1609,7 +1609,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1031--1035
 
  []
 
-<pictures//pic_7.jpeg, id=403, 1447.4075pt x 1003.75pt>
+<pictures//pic_7.jpeg, id=424, 1447.4075pt x 1003.75pt>
 File: pictures//pic_7.jpeg Graphic file (type jpg)
 <use pictures//pic_7.jpeg>
 Package pdftex.def Info: pictures//pic_7.jpeg  used on input line 1038.
@@ -1634,7 +1634,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures//cd_2.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pictures//cd_2.pdf, id=420, 97.8857pt x 60.76703pt>
+<pictures//cd_2.pdf, id=440, 97.8857pt x 60.76703pt>
 File: pictures//cd_2.pdf Graphic file (type pdf)
 <use pictures//cd_2.pdf>
 Package pdftex.def Info: pictures//cd_2.pdf  used on input line 1059.
@@ -1745,19 +1745,78 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [33]
+./main.tex:1653: Undefined control sequence.
+l.1653 ...s + \varepsilon_r x_r^2  + p(\varpesilon
+                                                  _{r + 1} x_{r+ 1}^2 + \ldo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.tex:1657: Undefined control sequence.
+l.1657         Если $p \enq
+                                2$ и $0 < r < n$, а $F = F_1 + pF_0$, то...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1679--1682
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1689--1691
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1710
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[35]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[36]
 (/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebraic geometry and Nu
 mber theory/Abstract (draft)/out/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B107CABF58FF3A87EE59BB3432EA8759;9043.
+(rerunfilecheck)             Checksum: 5BC184EF60F7374FA00568B9ADD69548;10430.
  ) 
 Here is how much of TeX's memory you used:
- 18134 strings out of 478268
- 288593 string characters out of 5846348
- 602262 words of memory out of 5000000
- 35787 multiletter control sequences out of 15000+600000
+ 18152 strings out of 478268
+ 288784 string characters out of 5846348
+ 602302 words of memory out of 5000000
+ 35794 multiletter control sequences out of 15000+600000
  495455 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,14n,78p,1215b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1796,11 +1855,11 @@ type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
 pe1/public/cm-super/sftt1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
 1/public/cm-super/sfxc1095.pfb>
 Output written on "/Users/user/Documents/GitHub/LNMO_summer_school_2022/Algebra
-ic geometry and Number theory/Abstract (draft)/out/main.pdf" (34 pages, 1033144
+ic geometry and Number theory/Abstract (draft)/out/main.pdf" (37 pages, 1049027
  bytes).
 PDF statistics:
- 701 PDF objects out of 1000 (max. 8388607)
- 592 compressed objects within 6 object streams
- 228 named destinations out of 1000 (max. 500000)
- 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 744 PDF objects out of 1000 (max. 8388607)
+ 631 compressed objects within 7 object streams
+ 239 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 
