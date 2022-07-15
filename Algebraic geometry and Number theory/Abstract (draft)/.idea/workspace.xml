@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d2ef4d4-458d-497c-b28d-c94a48bcafe7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exam questions.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Basic number theory/src/Dopusk.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/Questions for exam.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/Questions for exam.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/Questions for exam.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/Questions for exam.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/out/Questions for exam.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/out/Questions for exam.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Basic number theory/src/Questions for exam.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Basic number theory/src/Questions for exam.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Exam questions.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/Exam questions.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Exam questions.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/Exam questions.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Exam questions.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/Exam questions.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exam questions.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exam questions.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +96,8 @@
       <workItem from="1657609118180" duration="5816000" />
       <workItem from="1657628262031" duration="2948000" />
       <workItem from="1657638451265" duration="130000" />
-      <workItem from="1657638963849" duration="2163000" />
+      <workItem from="1657638963849" duration="2684000" />
+      <workItem from="1657866880873" duration="217000" />
     </task>
     <servers />
   </component>
