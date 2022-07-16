@@ -1,11 +1,47 @@
 %! Author = user
 %! Date = 12.07.2022
 
-% Preamble
-\documentclass[11pt]{article}
+%! Author = matheusz
+%! Date = 14.07.2021
 
-\input{preamble}
-% Document
+% Preamble
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[left=1.1cm,right=1.1cm,
+    top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\usepackage{tipa}
+\usepackage{euscript}
+\usepackage{mathrsfs}
+%\usepackage{txfonts}
+\usepackage{textcomp}
+\usepackage{cmap}
+\usepackage{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{amsfonts}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+\usepackage{fancybox,fancyhdr} %this packages provides fancy up and bottom of page
+\pagestyle{fancy}
+\usepackage{setspace}
+%\полуторный интервал
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CO]{Теория делимости, допуск}
+\fancyhead[LO]{ЛНШ ЛНМО}
+\newcommand{\divisible}{\mathop{\raisebox{-2pt}{\vdots}}}
+\fancyhead[CE]{}
+\usepackage{enumitem}
+\fancyfoot{}
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{caption}
+\usepackage[condensed,math]{anttor}
+\usepackage[T1]{fontenc}
+
 \begin{document}
     \textbf{\textsc{Ведунов Пётр}}
     \begin{itemize}
@@ -14,6 +50,7 @@
         \item Десятичная запись.
         \item НОД и НОК.
         \item Диофантовы уравнения.
+        \item КТО.
     \end{itemize}
     \textbf{\textsc{Долгопольский Тимофей}}
     \begin{itemize}
@@ -27,6 +64,8 @@
         \item Сравнения по модулю.
         \item Десятичная запись числа.
         \item Диофантовы уравнения.
+        \item КТО.
+        \item Функция Эйлера.
     \end{itemize}
     \textbf{\textsc{Кривочеев Платон}}
     \begin{itemize}
@@ -34,6 +73,8 @@
         \item Сравнения по модулю.
         \item Десятичная запись числа.
         \item Диофантовы уравнения.
+        \item КТО.
+        \item Функция Эйлера.
     \end{itemize}
     \textbf{\textsc{Тараканов Георгий}}
     \begin{itemize}
@@ -43,6 +84,7 @@
         \item НОД и НОК.
         \item Диофантовы уравнения.
         \item ОТА.
+        \item КТО.
     \end{itemize}
     \textbf{\textsc{Титов Олег}}
     \begin{itemize}
@@ -51,14 +93,7 @@
         \item НОД и НОК.
         \item Диофантовы уравнения.
         \item ОТА.
-    \end{itemize}
-    \textbf{\textsc{Титов Олег}}
-    \begin{itemize}
-        \item Остатки.
-        \item Сравнения по модулю.
-        \item НОД и НОК.
-        \item Диофантовы уравнения.
-        \item ОТА.
+        \item Функция Эйлера.
     \end{itemize}
     \textbf{\textsc{Шутова Дарья}}
     \begin{itemize}
@@ -70,12 +105,48 @@
         \item Десятичная запись.
         \item НОД и НОК.
         \item ОТА.
+        \item Функция Эйлера.
     \end{itemize}
     \textbf{\textsc{Афанасьев Иван}}
     \begin{itemize}
         \item Сравнения по модулю.
         \item Десятичная запись числа.
         \item НОД и НОК.
+        \item КТО.
+    \end{itemize}
+    \textbf{\textsc{Ильюшин Тимофей}}
+    \begin{itemize}
+        \item КТО.
+        \item Функция Эйлера.
+    \end{itemize}
+    \textbf{\textsc{Рыбаков Иван}}
+    \begin{itemize}
+        \item КТО.
     \end{itemize}
 
+    \newpage
+    \begin{center}
+        \section*{Теория делимости.}
+        \subsection*{Допуск к экзамену.}
+    \end{center}
+    \subsection*{Остатки.}
+        Найдите остаток от деления на 17 числа $2^{1999} + 1$.
+    \subsection*{Сравнения по модулю.}
+        Докажите, что $7^{7^{7^{7^{7}}}} - 7^{7^{7^{7}}} \divisible 10$.
+    \subsection*{НОД и НОК.}
+        На какие натуральные числа можно сократить дробь
+        \[ \frac{3m - n}{5n + 2m}, \text{ если } \gcd(m, n)  = 1?\]
+    \subsection*{Десятичная запись числа.}
+        Докажите, что $\overline{abcd} \divisible 99$ тогда и только тогда, когда $\overline{ab} + \overline{cd} \divisible 99$.
+    \subsection*{Диофантовы уравнения}
+        Решите в целых числах уравнение
+        \[ 34x - 21y = 1.\]
+        (Укажите все решения.)
+    \subsection*{Основная теорема арифметики.}
+        Натуральное число $n$ имеет два простых делителя, общее количество делителей числа равно 6, а их суииа 28. Найдите само число.
+    \subsection*{Китайская теорема об остатках.}
+    Укажите все целые числа $x$, удовлетворяющие системе
+    \[ \begin{cases} x \equiv 3 \pmod{5} \\ x \equiv 7 \pmod{17} \end{cases}.\]
+    \subsection*{Функция Эйлера.}
+    \pagestyle{empty}
 \end{document}
